@@ -4,31 +4,36 @@
 
 Some reasons for using version control systems:
 
-* **undo changes**: its always helpful to go back if a future revision
-  of your application doesn’t work as expected after a change
+* **undo changes**: its always helpful to go back (or at least to have
+  to option to to go back) if a future revision of your application
+  doesn’t work as expected after a change
   
 * **concurrent file editing**: vcs system help to resolve conflicts,
-  when multiple developers need to edit the same file. A conlict may
-  be resolved using by **locking** (i.e. vcs allows only one developer
-  modify a file at a time) or by **merging** (i.e. vcs detects that a
-  conflict has occurred and helps in merging the conflicting
-  changes. The merge may **automatic** (if concurrent changes are in
-  different part of a file), or **manual** if the vcs -tool needs uses
-  support in determining, which change should be used.
+  when multiple developers need to edit the same file. A conflict may
+  be resolved beforehand using by **locking** (i.e. vcs allows only
+  one developer modify a file at a time) or by afterwards by
+  **merging** (i.e. when vcs detects that a conflict has occurred and
+  helps in merging the conflicting changes). The merge may be done
+  **automatically** (if concurrent changes are in different part of a
+  file), or may **manual assistance** (if the changes affect the part
+  of the file).
   
 * **tagging**/**labeling**: the ability to create a snapshot of the
-    codebase at any given moment
+    codebase at any given moment. The tool allows to go resume the
+    tagged -state, in any later time.
 	
 * **collaboration**: multiple developers share their work in a common
-    repository, which vcs manages
-* support **branching**: enables developers to work parallel in parts
-  of software. This may happen e.g., when version is released, and its
-  development continues in a separate branch.
+    repository, which vcs manages 
+	
+* supports **branching**: enables developers to work parallel in parts
+    of software. For example, parallel working is initiated, when a
+    version of a software product is released, and its development
+    continues.
   
 See more details in
 [wiki article on revision control systems](http://en.wikipedia.org/wiki/Revision_control)
 
-### Distributed or centralised version control system
+### Distributed or centralized version control system
 
 
 
