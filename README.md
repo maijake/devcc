@@ -10,10 +10,9 @@ The contents aims at creating understanding
 ## <a id="0-SETUP-DEVCC">Setup devcc environment</a>
 
 Like developers normally do (or as they normally
-[SHOULD use vcs -tools](0-why-vcs/README.md) do), we are using a
-version control tool to manage our content. Our choice is a tool
-called `git`, and we store our content
-[in a repository](https://github.com/sorsis3/devcc) on
+[SHOULD do](0-why-vcs/README.md)), we are using a version control tool
+to manage our content. Our choice is a tool called `git`, and we store
+our content [in a repository](https://github.com/sorsis3/devcc) on
 [github](http://github.com) service.
 
 
@@ -36,7 +35,13 @@ You are using.
   in a software requires changing)
   * has a syntax highlight support
 
+## <a id="0-MANAGE-DEVELOPMENT">Manage development</a>
 
-[README](README.md) 
+We plan to [agile development methodology](0-agile/README.md) to
+manage the development.
+
+
+
+[top](README.md) 
 
 
