@@ -26,9 +26,9 @@ collaboration.
 
 * You need to be familiar with the command line tool on the operating
 system
-([Windows](https://www.google.fi/search?q=command+line+tool+windows),
-[Mac](https://www.google.fi/search?q=command+line+tool+mac) or
-[Linux](https://www.google.fi/search?q=command+line+tool+linux&btnG=Search))
+([Windows](https://www.google.com/search?q=command+line+tool+windows),
+[Mac](https://www.google.com/search?q=command+line+tool+mac) or
+[Linux](https://www.google.com/search?q=command+line+tool+linux&btnG=Search))
 You are using.
 
 * You need to have an editor, which, 
