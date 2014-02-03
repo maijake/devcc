@@ -28,7 +28,8 @@ traditional project management techniques.
 
 There are many Agile Methodologies,
 [Scrum](http://en.wikipedia.org/wiki/Scrum_%28development%29) being
-one of the best known. 
+one of the best known. See
+[a diagram of Scrum process](http://en.wikipedia.org/wiki/File:Scrum_process.svg)
 
 Scrum focuses on managing (software) projects. It defines 3 roles with
 the following responsibilities:
@@ -69,7 +70,6 @@ Artifacts:
     work in **Sprint Backlog**
 
 
-![Scrum process](http://en.wikipedia.org/wiki/File:Scrum_process.svg "Scrum process")
 
 Scrum process defines following meetings 
 
