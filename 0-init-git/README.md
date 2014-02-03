@@ -23,7 +23,7 @@ This is just a short (Crash Course) introduction to git.
 exist.
 
 To download [devcc](https://github.com/sorsis3/devcc) open a terminal
-window and change the working directory *<some working directory>*
+window and change the working directory *&lt;some working directory&gt;*
 
 	cd <some working directory>
 	
@@ -33,12 +33,12 @@ and issue the command
 	
 Now You should have content of
 [devcc](https://github.com/sorsis3/devcc) in the sub-directory `devcc`
-under *<some working directory>*.
+under *&lt;some working directory&gt;*.
 
 ## Using git (short version)
 
 
-First go to a working directory *<some working directory>*
+First go to a working directory *&lt;some working directory&gt;*
 
 	cd <some working directory>
 	
@@ -80,7 +80,7 @@ Make the addition permanent by committing it to the repo
 Browse to [Join Github](https://github.com/join), add create a new
 account by entering
 
-* Username for your *<your github account>*
+* Username for your *&lt;your github account&gt;*
 * email address (where git hub will send a confirmation email)
 * password for the github account
 
@@ -89,7 +89,7 @@ You may also consider installing a
 
 ## Using git (short version continues)
 
-Associate your *<your github account>* as remote to your local git repo:
+Associate your *&lt;your github account&gt;* as remote to your local git repo:
 
 	git remote add origin git@github.com:<your github account user name>/test.git
 	
@@ -97,7 +97,7 @@ Push the changes to your remote github account
 
 	git push -u origin master
 
-And browse to *<your github account>* to see the changes published
+And browse to *&lt;your github account&gt;* to see the changes published
 
 	https://github.com/<your github account user name>
 
