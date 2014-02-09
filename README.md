@@ -10,10 +10,10 @@ The contents aims at creating understanding
 ## <a id="0-SETUP-DEVCC">Setup devcc environment</a>
 
 Like developers normally do (or as they normally
-[SHOULD do](0-why-vcs/README.md)), we are using a version control tool
-to manage our content. Our choice is a tool called `git`, and we store
-our content [in a repository](https://github.com/sorsis3/devcc) on
-[github](http://github.com) service.
+[SHOULD do](0-why-vcs/README.md)), we are using version control tool
+to manage content created. Our choice is a tool called `git`, and we
+store our content [in a repository](https://github.com/sorsis3/devcc)
+on [github](http://github.com) service.
 
 
 * You need to [install git](0-init-git/README.md) to download
@@ -63,12 +63,12 @@ requirements of a system.  In this exercise, we give
 [DevCC functional requirements](1-spec/README.md) as screen mockups
 using
 [Twitter Bootstrap 3.0 Ui Mockup Templatetes](http://keynotopia.com/bootstrap/)
-by [Keynotopia]http://keynotopia.com/).
+by [Keynotopia](http://keynotopia.com/).
 
 
-## <a id="1-DEFINE-ARCHITECTURE">Define Architecture</a>
+## <a id="DEFINE-ARCHITECTURE">Define Architecture</a>
 
-Having `functional`requirements is not enough to start system
+Having `functional`requirements is not enough to start systems
 development. At the start (and trough out the whole system life cycle)
 we need to have understanding of several `non-functional` aspects of
 the system, such as:
@@ -85,12 +85,15 @@ the system, such as:
 * etc.
 
 The common engineering practice is create a
-[Systems Architecture](http://en.wikipedia.org/wiki/Systems_architecture)
-model, and use it in analysis to give answers to questions, such as
-above. 
+[Architecture Description](http://en.wikipedia.org/wiki/Systems_architecture)
+to model, and use it in analysis to give answers to these kind of
+questions.
 
-[](1-architecture#README.md)
-[derived Systems Architecture](1-define-architecture/README.md) for 
+[In our case](1-architecture#README.md) we have
+[derived Systems Architecture](1-define-architecture/README.md) 
+
+* TBD
+* 
 
 
 [top](README.md) 
