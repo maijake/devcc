@@ -85,12 +85,11 @@ the system, such as:
 * etc.
 
 The common engineering practice is create a
-[Architecture Description](http://en.wikipedia.org/wiki/Systems_architecture)
-to model, and use it in analysis to give answers to these kind of
-questions.
+[Architecture Description](1-define-architecture/README.md) to model
+the system and analyze it to give answers to these kind of questions.
 
 [In our case](1-architecture#README.md) we have
-[derived Systems Architecture](1-define-architecture/README.md) 
+
 
 * TBD
 * 

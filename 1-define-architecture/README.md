@@ -3,7 +3,7 @@
 ## Architecture Description Core Concepts
 
 Architecture Description is formally defined in
-[IEEE_1471]()http://en.wikipedia.org/wiki/IEEE_1471), and subsequent
+[IEEE_1471](http://en.wikipedia.org/wiki/IEEE_1471), and subsequent
 standards.
 
 *Architectures* are documented to answer *stakeholder* *concerns*. 
@@ -39,11 +39,9 @@ logical viewpoints.
 
 Other information: 
 
-*
-  [Architecture Description Terms and Their Relationships](http://pubs.opengroup.org/architecture/archimate-doc/ts_archimate/ts_archimate_files/image113.jpg)
+* [Architecture Description Terms and Their Relationships](http://pubs.opengroup.org/architecture/archimate-doc/ts_archimate/ts_archimate_files/image113.jpg)
 
-*
-  [Software Systems Architecture: Working With Stakeholders Using Viewpoints and Perspectives](http://www.amazon.com/Software-Systems-Architecture-Stakeholders-Perspectives/dp/0321112296/ref=sr_1_2?ie=UTF8&qid=1391965499&sr=8-2&keywords=software+systems+architecture)
+* [Software Systems Architecture: Working With Stakeholders Using Viewpoints and Perspectives](http://www.amazon.com/Software-Systems-Architecture-Stakeholders-Perspectives/dp/0321112296/ref=sr_1_2?ie=UTF8&qid=1391965499&sr=8-2&keywords=software+systems+architecture)
 
 
 ## Architecture Design Process in Project Context
@@ -90,7 +88,8 @@ out a couple of better known corporate architecture frameworks:
 ## Techniques, diagrams, and templates
 
 It is often advisable to have one overall **Systems Architecture
-Diagram**, which communicates the essence of the target system.
+Diagram**, which communicates the essence of the target
+system. [wikipedia](http://en.wikipedia.org/wiki/Systems_architecture)
 
 In Architecture Design, we aim at identifying elements, which have 1)
 clearly defined responsibilities, 2) have a well defined boundary, 3)
