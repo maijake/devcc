@@ -49,9 +49,9 @@ installing some tool?
   
 ### CONCERN-4
 
-We are talking of a "development pipeline". Does this mean that the
-development work goes through some kind of steps. What are these
-steps, and how do they add value to the product being developed?
+What is this talking about a "development Pipeline". Does this mean
+that the development work flows through some kind of "pipe". What is
+the pipe, and how does it add value to the product being developed?
 
 ## Reference Architecture
 
@@ -62,10 +62,35 @@ presented in [book](http://www.amazon.com/gp/product/0321601912) by
 
 ![Continuous Delivery Process](http://www.getchef.com/images/chart-continuous-delivery.png)
 
+*Continuous Delivery* can be characterized 
+
+ * uses short cycle time trough *Development Pipeline*, using automated
+   tests, continuous integration, small build, smoke tests
+ * fast feedback on failures
+ * each commit to version control system is a *Potentially Deliverable
+   Product*
+ * Once an artifact gets build/generated (e.g. compiled code,
+   binaries, reports, metadata) it is stored in an artifact repository
+   (as opposed to keeping the in version control system), allowing
+   steps in pipeline to have 100% certainty that they are using
+   unmodified artifact
+ * where the confidence on quality is increased as the build proceeds
+   through the development pipeline steps
+ * all environments resemble production as much as possible, further
+   down to the pipeline environments are even more production like.
+ * commits to
+   [Main Trunk](http://en.wikipedia.org/wiki/Trunk_%28software%29) (as
+   opposed to creating
+   [Branches](http://en.wikipedia.org/wiki/Branching_%28revision_control%29)
+   to support
+   [Continuous Integration](http://en.wikipedia.org/wiki/Continuous_integration)
+
+## Architectural Requirements
+
 Continuous Delivery can be characterized
 
 * on development work bench run continuously unit tests, which provide
-  immediate feedback to the developers
+  immediate
 * when the delivery checking in their work
 *  [Continuous Integration](http://en.wikipedia.org/wiki/Continuous_integration) triggers automatically
    * build 
@@ -80,21 +105,6 @@ Continuous Delivery can be characterized
 * Release should also be managed e.g. "canary releasing" (=small
   deliveries, where problems do not harm the total system),
   "green/blue" (=two parallel systems, which can be easily switched)
-
-Continuous delivery is aiming at
- * short cycle time trough development pipe line, using automated
-   tests, continuous integration, small build, smoke tests
- * each commit is potentially deliverable product
- * where the confidence on quality is increased as the build proceeds
-   through the development pipeline steps
- * all environments resemble production as much as possible, further
-   down to the pipe line environments are even more production like.
- * Commits  to main trunk (as opposed to creating branches, which are merged)
- * Once an artifact gets build/generated (e.g. compiled code,
-   binaries, reports, metadata) it is stored in an artifact repository
-   (as opposed to keeping the in version control system), allowing
-   steps in pipeline to have 100% certainty that they are using
-   unmodified artifact
 
 ## Developer Roles
 
@@ -157,22 +167,6 @@ The following picture shows **Developer Roles** identified in `DevCC` c
 	* [Dia](http://en.wikipedia.org/wiki/Dia_%28software%29)
 	* [ArgoUML](http://argouml.tigris.org/)
 
-* **User Interface Developer**
-  * **Methodologies**
-    * [Unit testing](http://en.wikipedia.org/wiki/Unit_testing)
-    * [Unit testing](http://en.wikipedia.org/wiki/Unit_testing)
-  * **Technologies**
-	* [css](http://en.wikipedia.org/wiki/Cascading_Style_Sheets)
-	* [html](http://en.wikipedia.org/wiki/HTML)
-    * [Javascript](http://en.wikipedia.org/wiki/JavaScript)
-  * **Tools**
-	* [Bower](https://github.com/bower/bower)
-	* [AngularJS Framework](http://angularjs.org/)
-    * [Twitter Bootstrap](http://getbootstrap.com/)
-	* [Karma Test Runner](http://karma-runner.github.io/0.10/index.html)
-	* [Mocha Unit test framework](http://visionmedia.github.io/mocha/)
-	* [Chai assertion libray](http://chaijs.com/)
-
 * **User Interface Layout Developer**
   * **Methodologies**
   * **Technologies**
@@ -181,25 +175,53 @@ The following picture shows **Developer Roles** identified in `DevCC` c
   * **Tools**
     * [Twitter Bootstrap](http://getbootstrap.com/)
 
-* **Backed Developer**
+* **User Interface Developer**
   * **Methodologies**
+    * [Unit testing](http://en.wikipedia.org/wiki/Unit_testing)
+	* [Test Driven _Development - TDD](http://en.wikipedia.org/wiki/Test-driven_development)
   * **Technologies**
+	* [css](http://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+	* [html](http://en.wikipedia.org/wiki/HTML)
     * [Javascript](http://en.wikipedia.org/wiki/JavaScript)
   * **Tools**
 	* [Bower](https://github.com/bower/bower)
+	* [GruntJs](http://gruntjs.com/)
+	* [AngularJS Framework](http://angularjs.org/)
+    * [Twitter Bootstrap](http://getbootstrap.com/)
+	* [Karma Test Runner](http://karma-runner.github.io/0.10/index.html)
+	* [Mocha Unit test framework](http://visionmedia.github.io/mocha/)
+	* [Chai assertion libray](http://chaijs.com/)
+
+* **Backed Developer**
+  * **Methodologies**
+    * [Unit testing](http://en.wikipedia.org/wiki/Unit_testing)
+	* [Test Driven _Development - TDD](http://en.wikipedia.org/wiki/Test-driven_development)
+  * **Technologies**
+    * [Javascript](http://en.wikipedia.org/wiki/JavaScript)
+    * [Rest](http://en.wikipedia.org/wiki/Rest)
+    * [Json](http://www.json.org/), [wikipedia](http://en.wikipedia.org/wiki/JSON)
+  * **Tools**
+	* [Bower](https://github.com/bower/bower)
+	* [GruntJs](http://gruntjs.com/)
     * [NodeJs](http://nodejs.org/)
 	* [Node Package Manager](https://www.npmjs.org/)
 	* [ExpressJs](http://expressjs.com/guide.html)
+	* [Karma Test Runner](http://karma-runner.github.io/0.10/index.html)
+	* [Mocha Unit test framework](http://visionmedia.github.io/mocha/)
+	* [Chai assertion libray](http://chaijs.com/)
 
 * **Test Developer**
   * **Methodologies**
     * [Continuous Integration](http://en.wikipedia.org/wiki/Continuous_integration)
+	* [Integration Testing](http://en.wikipedia.org/wiki/Integration_testing)
   * **Technologies**
   	* [Ruby](https://www.ruby-lang.org/en/)
+	* [css](http://en.wikipedia.org/wiki/Cascading_Style_Sheets)
   * **Tools**
     * [Cucumber](http://cukes.info/)
 	* [Selenium](http://docs.seleniumhq.org/)
 	* [Jenkins](http://jenkins-ci.org/)
+	* [Vagrant](http://www.vagrantup.com/)
 
 * **Development Infrastructure Developer**
   * **Methodologies**
@@ -208,6 +230,7 @@ The following picture shows **Developer Roles** identified in `DevCC` c
   * **Tools**
     * [Node Version Manager](https://github.com/creationix/nvm)
 	* [Groom your app’s Ruby environment](https://github.com/sstephenson/rbenv)
+	* [Vagrant](http://www.vagrantup.com/)
 
 * **Runtime Infrastructure Management Developer**
   * **Methodologies**
@@ -217,6 +240,9 @@ The following picture shows **Developer Roles** identified in `DevCC` c
     * [Configuration Management Tool Chef](http://docs.opscode.com/)
       * [berkshelf](http://berkshelf.com/)
 	  * [Opscode Community Cookbooks](http://community.opscode.com/)
+	* [Vagrant](http://www.vagrantup.com/)
+    * [Bash](http://en.wikipedia.org/wiki/Bash_%28Unix_shell%29)
+	* [Amazon EC2](http://aws.amazon.com/ec2/)
 
 
 ### Architectural Decisions
@@ -272,13 +298,39 @@ context, where "Development Pipeline" is executed.
 
 ## Logical Architecture
 
+![Logical Architecture](logical-in-time.png) [svg](logical-in-time.svg)
+
+The picture above shows, how the Systems Architecture is logically
+divided into two categories `Continuous Delivery` and
+`Infrastructure`. 
+
+`Continuous Delivery` starts with collecting `Requirements` and
+defining `Acceptance Criteria`. System implementation proceeds trough
+three environments `Development Environment`, `Quality Environment`
+and `Runtime Environment`.
+
+`Infrastructure` starts with `Architecture Design`, and followed by
+the same environments. 
+
+
 ### Architectural Decisions
 
-## Development Architectures
-
-### Architectural Decisions
 
 ### Concerns addressed
+
+
+[CONCERN-2](#CONCERN-2): "Development work" proceeds trough several
+environments supported by underlying infrastructure.
+
+[CONCERN-1](#CONCERN-1), [CONCERN-3](#CONCERN-3): We proceed using the
+logical swim lane model. Infrastructure should be available at the
+time of work in an environment starts. The logical model corresponds
+roles presented earlier, and this information can be used to identify
+technologies and tools needed.
+
+[CONCERN-4](#CONCERN-4): "Development work" flows trough the
+Environments
+
 
 
 
