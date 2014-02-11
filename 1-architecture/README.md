@@ -3,7 +3,6 @@
 ## Constraints and Scope
 
 * First version of this document: max 8h
-  * Max 8 hours
 
 * Objective
   * To identify initial architecture requirements in product backlog
@@ -11,7 +10,7 @@
   * Give on overview of our exercise
   
 * Scope  
-  * Define a *Minimum Feasible Delivery Pipeline*, which
+  * Define a *Minimum Feasible Deployment Pipeline*, which
     * uses state of the art tools
 	* is "efficient"
 	* can scale up
@@ -24,6 +23,8 @@
     * GIT-markdown
 	* [Dia](http://en.wikipedia.org/wiki/Dia_%28software%29)
 	* [ArgoUML](http://argouml.tigris.org/)
+
+* See [Architectural Decisions](#Architectural-Decisions) below
 
 ## Concerns
 
@@ -42,53 +43,59 @@ I would like to get a "big picture" of the "developer work", and some
   
 ### CONCERN-3
 
-Do we have to install, understand and use all development pipeline
-tools? Are all the tools equally important? What happens if we
-encounter problem with some tool, what do miss if I do not skip
-installing some tool?
+Do we have to install, understand and use all development tools? Are
+all the tools equally important? What happens if we encounter problem
+with some tool, what do miss if I do not skip installing some tool?
   
 ### CONCERN-4
 
-What is this talking about a "development Pipeline". Does this mean
-that the development work flows through some kind of "pipe". What is
-the pipe, and how does it add value to the product being developed?
+What is this talking about a "Deployment Pipeline". Does this mean that
+the development work flows through some kind of "pipe". What is the
+pipe, and how does it add value to the product being developed?
 
 ## Reference Architecture
 
-As reference architecture we are using
+We use
 [Continuous Delivery](http://www.slideshare.net/jezhumble/continuous-delivery-5359386)
-presented in [book](http://www.amazon.com/gp/product/0321601912) by
+as reference architecture. *Continuous Delivery* is described in more
+details in a [book](http://www.amazon.com/gp/product/0321601912) by
 [http://www.thoughtworks.com ](http://www.thoughtworks.com/continuous-delivery).
 
 ![Continuous Delivery Process](http://www.getchef.com/images/chart-continuous-delivery.png)
 
 *Continuous Delivery* can be characterized 
 
- * uses short cycle time trough *Development Pipeline*, using automated
-   tests, continuous integration, small build, smoke tests
- * fast feedback on failures
- * each commit to version control system is a *Potentially Deliverable
+ * It uses automated tests, continuous integration, small build, smoke
+   tests to get fast feedback on failures, and short cycle times
+   trough *Deployment Pipeline*
+ * In addition to automated step, *Continuous Delivery* uses manual
+   steps, when automation is not possible (e.g. *User Acceptance
+   Testing*)
+ * Each commit to version control system is a *Potentially Deliverable
    Product*
  * Once an artifact gets build/generated (e.g. compiled code,
    binaries, reports, metadata) it is stored in an artifact repository
    (as opposed to keeping the in version control system), allowing
    steps in pipeline to have 100% certainty that they are using
    unmodified artifact
- * where the confidence on quality is increased as the build proceeds
-   through the development pipeline steps
- * all environments resemble production as much as possible, further
+ * Each step executed in the *Deployment Pipeline* increases the
+   quality of the product, and the confidence that the product version
+   could be deployed in real production.
+ * All environments resemble production as much as possible, further
    down to the pipeline environments are even more production like.
- * commits to
+ * Recommends commits to
    [Main Trunk](http://en.wikipedia.org/wiki/Trunk_%28software%29) (as
    opposed to creating
-   [Branches](http://en.wikipedia.org/wiki/Branching_%28revision_control%29)
-   to support
+   [Branches](http://en.wikipedia.org/wiki/Branching_%28revision_control%29). This
+   enables the effective use of
    [Continuous Integration](http://en.wikipedia.org/wiki/Continuous_integration)
+   techniques.
 
 
 ## Developer Roles
 
-The following picture shows **Developer Roles** identified in `DevCC` c
+The following picture shows **Developer Roles** identified for our
+exercise:
 
 ![Developer Roles](Roles.png)
 
@@ -96,17 +103,23 @@ The following picture shows **Developer Roles** identified in `DevCC` c
 
 * **Analyst** : Role which is further being decomposed to  *Requirements Analyst*, and *Test Analyst*
 
-  * **Requirements Analyst** : Developer analysing requirements, understand the business needs
+  * **Requirements Analyst** : Developer analysing requirements,
+      understand business needs, and knows how to document them in a
+      [SMART](http://en.wikipedia.org/wiki/SMART_criteria) way
   
   * **Test Analyst** : Define acceptance criteria for requirements
+      agreed upon
 	
-* **Architect** : support as mediator between analysts and implementation developers
+* **Architect** : support as mediator between analysts and
+    implementation developers, takes a broad view on infrastructure
   
-* **User Interface Developer**: *implementation developer* responsible for user interface functionality
+* **User Interface Developer**: *implementation developer* responsible
+    for user interface functionality, uses TDD and implements also
+    unit tests corresponding the implementation units, parent for a
+    sub-role *User Interface Layout Developer*
 
 * **User Interface Layout Developer**: *implementation developer*
-        responsible for visual aspect of user interface, implement
-        also unit tests for the code
+        responsible for visual aspect of user interface
 
 * **Backed Developer**: *implementation developer* responsible for
       integrating back end systems and datastores, implement also unit
@@ -227,12 +240,6 @@ The following picture shows **Developer Roles** identified in `DevCC` c
     * [Bash](http://en.wikipedia.org/wiki/Bash_%28Unix_shell%29)
 	* [Amazon EC2](http://aws.amazon.com/ec2/)
 
-
-### Architectural Decisions
-
-* Security testing, performance testing not covered here
-* User Acceptance testing not covered here
-
 ### Concerns addressed
 
 [CONCERN-1](#CONCERN-1), [CONCERN-3](#CONCERN-3):
@@ -251,7 +258,7 @@ development phases
 
 ## System Architecture
 
-![Systems Architecture](SystemArchitecture.jpg)[svc](SystemArchitecture.svg)
+![Systems Architecture](SystemArchitecture.jpg)[pdf](SystemArchitecture.pdf)
 
 Presented in four quadrants
 
@@ -260,12 +267,47 @@ Presented in four quadrants
 * Web Development Environment 
 * Web Runtime Environment 
 
-Presents the [Methodologies, Technologies, Tools](#Methodologies, Technologies, Tools)
+**Local Development Environment**:
 
-### Architectural Decisions
+* Three sub-environments identified
+  * for Programming
+  * for Quality Assurance
+  * for Configuration Management
 
-* Security testing, performance testing not covered here
-* User Acceptance testing not covered here
+
+
+* Programming
+  * Bootstrap 
+  * Development runtime: Browser, NodeJS/Express, MongoDB
+  * Implementation technologies: javascript, css, and html code
+
+* Quality Assurance
+  * Bootstrap 
+  * Continuous Integration: Jenkins
+  * Acceptance Testing: Cucumber, Selenium
+  
+* Configuration Management
+  * Chef + Opscode Community Recipes
+  * Implementation: Chef Ruby language
+
+**Local Runtime Environment**:
+
+* Vagrant/VirtualBox virtualization
+
+* 2-tier application runtime architecture
+  * Webserver: Nginx
+  * integration using REST/Json
+  * DB server: MongoDB, NodeJs
+
+**Web Development Environment**
+
+* Github
+* ??
+
+**Web Runtime Environment**:
+
+* Amazon EC2
+  * Automated Deployment
 
 ### Concerns addressed
 
@@ -275,36 +317,44 @@ picture
 [CONCERN-3](#CONCERN-3): System Architecture shows maps the
 tool to architectural context.
 
-[CONCERN-4](#CONCERN-4): System Architecture shows system
-context, where "Development Pipeline" is executed.
+[CONCERN-4](#CONCERN-4): System Architecture shows system context,
+where "Deployment Pipeline" is executed.
 
 
 ## Logical Architecture
 
-![Logical Architecture](logical-in-time.png) [svg](logical-in-time.svg)
+![Logical Architecture](logical-in-time.png) [pdf](logical-in-time.pdf)
 
 The picture above shows, how the Systems Architecture is logically
-divided into two categories `Continuous Delivery` and
+divided into two swim lanes for `Continuous Delivery` and
 `Infrastructure`. 
 
-Before implementation start, the logical model identifies tasks:
+* `Continuous Delivery` : the 'real development' work
+* `Infrastructure` : supports, bootstraps *Continuous Delivery*
 
-* for collecting `Requirements`
-* defining `Acceptance Criteria` for the requirements
-* designing `Architecture Design`
+Initial tasks (before implementation):
 
-The *Development Pipeline* flows trough three environments
-`Development Environment`, `Quality Environment` and `Runtime
-Environment`.
+* collect `Requirements`
+* define `Acceptance Criteria` for the requirements
+* design `Architecture`
 
-Each Environment is composed of smaller units (`Sub-Environments`)
-corresponding the developer roles presented above. The
-*Sub-Environments* allow developer to accomplish a task within a
-*Delivery Pipeline*.
+Implementation flows trough three environments `Development
+Environment`, `Quality Environment` and `Runtime Environment`.
 
-### Architectural Decisions
+The environments are composed of smaller units (`Sub-Environments`),
+corresponding the developer roles above:
 
-Not supporting 
+* **Development Environment**: 
+  * **layout**: *User Interface Layout Developer*
+  * **user inteface**: *User Interface Developer*
+  * **backend**: *Backed Developer*
+  * **development environment**: *Development Infrastructure Developer*
+* **Quality Environment**:
+  * **acceptance tests**: *Test Developer*
+  * **continuous integration**: *Test Developer*
+* **Runtime Environment**
+  * **local runtime**: *Runtime Infrastructure Management Developer*
+  * **Amazon runtime**: *Runtime Infrastructure Management Developer*
 
 ### Concerns addressed
 
@@ -323,11 +373,9 @@ Environments
 
 ## Architectural Requirements
 
-Initial list on high level.
+(Not in any particular order)
 
-### ARCH-1: Fast feedback
-
-### ARCH-1: Unit tests are running continuously in Dev. Env
+### ARCH-1: Unit tests are running continuously in Dev. Environment
 
 ### ARCH-2: Acceptance test can be run without CI-environment
 
@@ -337,11 +385,19 @@ In other words: Continuous Integration Environment optional.
 
 ### ARCH-4: Automate infrastructure builds
 
-### ARCH-4: Amazon and Local RT-env. similar
+### ARCH-5: Amazon and Local RT-env. similar
 
-### ARCH-5: DOD: Bootstrap instructions for each environment 
+### ARCH-6: Bootstrap instructions for each environment 
 
+### ARCH-7: 
 
+## Architectural Decisions
+
+* Focus Web technologies (Java ja .Net technologies not covered)
+* Security testing, performance testing not covered here
+* User Acceptance testing not covered here
+* Other roles not covered: e.g. integration developer
+* Two tier application architecture (front/db -layers)
 
 [up](../README.md) [resume](../#1-DEFINE-ARCHITECTURE) [top](README.md)
 
