@@ -27,9 +27,10 @@
 
 ## <a id="CONCERNS">Concerns</a>
 
-* An efficient developer uses right tools for the job. Installing and
-  managing a large tool set may distract the attention from
-  "programming" i.e. from the "real work". How can we avoid this?
+* An a professional developer uses the right tools for the right
+  job. Installing and managing a large tool set may distract the
+  attention from "programming" i.e. from the "real work". How can we
+  avoid this in this exercise?
   
 * I would like to get a "big picture" of the "developer work", and
   some pointers, how dig deeper on some subject. By the way, what
@@ -48,7 +49,7 @@
 
 ## System Architecture
 
-![Systems Architecture](SystemArchitecture.jpg)
+![Systems Architecture](SystemArchitecture.svg)
 
 ### Architectural Decisions
 

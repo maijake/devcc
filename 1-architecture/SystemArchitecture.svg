@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="24cm" height="15cm" viewBox="7 3 472 299" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="183.349" y="51.6243" width="68" height="60"/>
+    <ellipse style="fill: #ffffff" cx="217.349" cy="111.624" rx="34" ry="10"/>
+    <ellipse style="fill: #ffffff" cx="217.349" cy="51.6243" rx="34" ry="10"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="217.349" cy="51.6243" rx="34" ry="10"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 251.349 51.6243 L 251.349,111.624 C 251.349,117.147 236.127,121.624 217.349,121.624 C 198.571,121.624 183.349,117.147 183.349,111.624 L 183.349,51.6243"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="217.349" y="133.624">
+      <tspan x="217.349" y="133.624"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="329.352" y="230.101" width="120" height="59.9715"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="329.352" y="230.101" width="120" height="59.9715"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="29.3516" y="150.101" width="280" height="143.154"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="29.3516" y="150.101" width="280" height="143.154"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="219.352" y="170.101" width="82.6847" height="82.3663"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="219.352" y="170.101" width="82.6847" height="82.3663"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="39.3516" y="170.101" width="82.6847" height="82.3663"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="39.3516" y="170.101" width="82.6847" height="82.3663"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="39.3516" y="250.101" width="82.6847" height="30"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="39.3516" y="250.101" width="82.6847" height="30"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="129.352" y="170.101" width="82.6847" height="82.3663"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="129.352" y="170.101" width="82.6847" height="82.3663"/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="147.609" y="234.747">
+    <tspan x="147.609" y="234.747"></tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="329.352" y="30.1006" width="117.207" height="100"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="329.352" y="30.1006" width="117.207" height="100"/>
+  </g>
+  <text font-size="4.51549" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="361.269" y="181.599">
+    <tspan x="361.269" y="181.599">Vagrant/front</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="368.846" y="179.277">
+    <tspan x="368.846" y="179.277"></tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="361.265" y="153.818">
+    <tspan x="361.265" y="153.818"></tspan>
+  </text>
+  <text font-size="4.51549" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="409.352" y="280.101">
+    <tspan x="409.352" y="280.101">Vagrant/db</tspan>
+  </text>
+  <text font-size="5.64444" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="49.3516" y="180.101">
+    <tspan x="49.3516" y="180.101">Programming</tspan>
+  </text>
+  <text font-size="5.64444" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="135.103" y="182.203">
+    <tspan x="135.103" y="182.203">Continuous Integration</tspan>
+  </text>
+  <text font-size="5.64444" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="229.352" y="180.101">
+    <tspan x="229.352" y="180.101">Configuration mgmt</tspan>
+  </text>
+  <text font-size="4.51549" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="49.3516" y="190.101">
+    <tspan x="49.3516" y="190.101">Browser</tspan>
+    <tspan x="49.3516" y="195.745">Node/Express</tspan>
+    <tspan x="49.3516" y="201.389">MongoDB</tspan>
+    <tspan x="49.3516" y="207.034"></tspan>
+    <tspan x="49.3516" y="212.678">Twitter Bootstrap</tspan>
+    <tspan x="49.3516" y="218.323">Angular</tspan>
+    <tspan x="49.3516" y="223.967">Express</tspan>
+    <tspan x="49.3516" y="229.612">Karma, Mocha</tspan>
+    <tspan x="49.3516" y="235.256"></tspan>
+    <tspan x="49.3516" y="240.901">Javascript</tspan>
+    <tspan x="49.3516" y="246.545">CSS</tspan>
+  </text>
+  <text font-size="4.51549" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="159.352" y="190.101">
+    <tspan x="159.352" y="190.101">Jenkins</tspan>
+    <tspan x="159.352" y="195.745"></tspan>
+    <tspan x="159.352" y="201.389"></tspan>
+  </text>
+  <text font-size="4.51549" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="49.3516" y="260.101">
+    <tspan x="49.3516" y="260.101">bower</tspan>
+    <tspan x="49.3516" y="265.745">npm</tspan>
+    <tspan x="49.3516" y="271.389">nvm</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="217.604" y="94.4052">
+    <tspan x="217.604" y="94.4052"></tspan>
+  </text>
+  <text font-size="4.51549" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="89.3516" y="260.101">
+    <tspan x="89.3516" y="260.101">Grunt</tspan>
+    <tspan x="89.3516" y="265.745"></tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="136.411" y="208.234" width="31.1122" height="34.6477"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="136.411" y="208.234" width="31.1122" height="34.6477"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="173.932" y="208.234" width="31.1122" height="34.6477"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="173.932" y="208.234" width="31.1122" height="34.6477"/>
+  </g>
+  <text font-size="4.51549" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="139.699" y="217.798">
+    <tspan x="139.699" y="217.798">Mocha</tspan>
+    <tspan x="139.699" y="223.442"></tspan>
+    <tspan x="139.699" y="229.087">Javascript</tspan>
+    <tspan x="139.699" y="234.731"></tspan>
+    <tspan x="139.699" y="240.376"></tspan>
+  </text>
+  <text font-size="4.51549" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="177.529" y="216.737">
+    <tspan x="177.529" y="216.737">Cucumber</tspan>
+    <tspan x="177.529" y="222.382">*.features</tspan>
+    <tspan x="177.529" y="228.026"></tspan>
+    <tspan x="177.529" y="233.67">Ruby </tspan>
+    <tspan x="177.529" y="239.315">- selenium</tspan>
+    <tspan x="177.529" y="244.959"></tspan>
+    <tspan x="177.529" y="250.604"></tspan>
+    <tspan x="177.529" y="256.248"></tspan>
+  </text>
+  <text font-size="5.64444" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="140.76" y="199.403">
+    <tspan x="140.76" y="199.403">Unit</tspan>
+    <tspan x="140.76" y="206.458">tests</tspan>
+  </text>
+  <text font-size="5.64444" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="172.625" y="198.839">
+    <tspan x="172.625" y="198.839">Acceptance</tspan>
+    <tspan x="172.625" y="205.895">tests</tspan>
+  </text>
+  <text font-size="4.51549" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="229.352" y="190.101">
+    <tspan x="229.352" y="190.101">Chef</tspan>
+    <tspan x="229.352" y="195.745"></tspan>
+    <tspan x="229.352" y="201.389"></tspan>
+    <tspan x="229.352" y="207.034">Community/Opscode recipes</tspan>
+    <tspan x="229.352" y="212.678"></tspan>
+    <tspan x="229.352" y="218.323"></tspan>
+    <tspan x="229.352" y="223.967">Ruby</tspan>
+    <tspan x="229.352" y="229.612"></tspan>
+    <tspan x="229.352" y="235.256"></tspan>
+    <tspan x="229.352" y="240.901"></tspan>
+    <tspan x="229.352" y="246.545"></tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="129.352" y="250.101" width="82.6847" height="30"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="129.352" y="250.101" width="82.6847" height="30"/>
+  </g>
+  <text font-size="4.51549" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="139.352" y="260.101">
+    <tspan x="139.352" y="260.101">gem</tspan>
+    <tspan x="139.352" y="265.745">bundle</tspan>
+    <tspan x="139.352" y="271.389">rbenv</tspan>
+  </text>
+  <text font-size="4.51549" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="189.352" y="260.101">
+    <tspan x="189.352" y="260.101">rake</tspan>
+    <tspan x="189.352" y="265.745"></tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="329.352" y="160.101" width="120" height="59.9715"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="329.352" y="160.101" width="120" height="59.9715"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="339.352" y="240.101" width="40" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="339.352" y="240.101" width="40" height="40"/>
+  </g>
+  <text font-size="4.51549" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="349.352" y="250.101">
+    <tspan x="349.352" y="250.101">Express</tspan>
+    <tspan x="349.352" y="255.745">Node</tspan>
+    <tspan x="349.352" y="261.389">MongoDB</tspan>
+    <tspan x="349.352" y="267.034"></tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="339.352" y="170.101" width="40" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="339.352" y="170.101" width="40" height="40"/>
+  </g>
+  <text font-size="4.51549" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="349.352" y="180.101">
+    <tspan x="349.352" y="180.101">Nginx</tspan>
+    <tspan x="349.352" y="185.745"></tspan>
+  </text>
+  <g>
+    <g>
+      <path style="fill: #12e8fa" d="M 190.669 68.4293 L 212.098,68.4293 C 215.312,74.4293 216.383,77.4293 216.383,83.4293 C 216.383,89.4293 215.312,92.4293 212.098,98.4293 L 190.669,98.4293 L 186.383,83.4293 L 190.669,68.4293z"/>
+      <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 190.669 68.4293 L 212.098,68.4293 C 215.312,74.4293 216.383,77.4293 216.383,83.4293 C 216.383,89.4293 215.312,92.4293 212.098,98.4293 L 190.669,98.4293 L 186.383,83.4293 L 190.669,68.4293"/>
+      <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="201.383" y="87.4293">
+        <tspan x="201.383" y="87.4293"></tspan>
+      </text>
+    </g>
+    <text font-size="4.51549" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="194.388" y="78.4293">
+      <tspan x="194.388" y="78.4293">*.html</tspan>
+      <tspan x="194.388" y="84.0737">*.css</tspan>
+      <tspan x="194.388" y="89.7182">*.js</tspan>
+    </text>
+  </g>
+  <text font-size="5.64444" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="209.352" y="55.9829">
+    <tspan x="209.352" y="55.9829">github</tspan>
+  </text>
+  <g>
+    <g>
+      <path style="fill: #12e8fa" d="M 219.747 86.9052 L 241.175,86.9052 C 244.39,92.9052 245.461,95.9052 245.461,101.905 C 245.461,107.905 244.39,110.905 241.175,116.905 L 219.747,116.905 L 215.461,101.905 L 219.747,86.9052z"/>
+      <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 219.747 86.9052 L 241.175,86.9052 C 244.39,92.9052 245.461,95.9052 245.461,101.905 C 245.461,107.905 244.39,110.905 241.175,116.905 L 219.747,116.905 L 215.461,101.905 L 219.747,86.9052"/>
+      <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="230.461" y="105.905">
+        <tspan x="230.461" y="105.905"></tspan>
+      </text>
+    </g>
+    <text font-size="4.51549" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="223.466" y="96.9052">
+      <tspan x="223.466" y="96.9052"></tspan>
+      <tspan x="223.466" y="102.55">*.rb</tspan>
+    </text>
+  </g>
+  <g>
+    <g>
+      <path style="fill: #12e8fa" d="M 93.6373 180.101 L 115.066,180.101 C 118.28,186.101 119.352,189.101 119.352,195.101 C 119.352,201.101 118.28,204.101 115.066,210.101 L 93.6373,210.101 L 89.3516,195.101 L 93.6373,180.101z"/>
+      <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 93.6373 180.101 L 115.066,180.101 C 118.28,186.101 119.352,189.101 119.352,195.101 C 119.352,201.101 118.28,204.101 115.066,210.101 L 93.6373,210.101 L 89.3516,195.101 L 93.6373,180.101"/>
+      <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="104.352" y="199.101">
+        <tspan x="104.352" y="199.101"></tspan>
+      </text>
+    </g>
+    <text font-size="4.51549" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="97.3566" y="190.101">
+      <tspan x="97.3566" y="190.101">*.html</tspan>
+      <tspan x="97.3566" y="195.745">*.css</tspan>
+      <tspan x="97.3566" y="201.389">*.js</tspan>
+    </text>
+  </g>
+  <g>
+    <g>
+      <path style="fill: #12e8fa" d="M 393.637 170.101 L 415.066,170.101 C 418.28,176.101 419.352,179.101 419.352,185.101 C 419.352,191.101 418.28,194.101 415.066,200.101 L 393.637,200.101 L 389.352,185.101 L 393.637,170.101z"/>
+      <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 393.637 170.101 L 415.066,170.101 C 418.28,176.101 419.352,179.101 419.352,185.101 C 419.352,191.101 418.28,194.101 415.066,200.101 L 393.637,200.101 L 389.352,185.101 L 393.637,170.101"/>
+      <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="404.352" y="189.101">
+        <tspan x="404.352" y="189.101"></tspan>
+      </text>
+    </g>
+    <text font-size="4.51549" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="397.357" y="180.101">
+      <tspan x="397.357" y="180.101">*.html</tspan>
+      <tspan x="397.357" y="185.745">*.css</tspan>
+      <tspan x="397.357" y="191.389">*.js</tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: #12e8fa" d="M 393.637 240.101 L 415.066,240.101 C 418.28,246.101 419.352,249.101 419.352,255.101 C 419.352,261.101 418.28,264.101 415.066,270.101 L 393.637,270.101 L 389.352,255.101 L 393.637,240.101z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 393.637 240.101 L 415.066,240.101 C 418.28,246.101 419.352,249.101 419.352,255.101 C 419.352,261.101 418.28,264.101 415.066,270.101 L 393.637,270.101 L 389.352,255.101 L 393.637,240.101"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="404.352" y="259.101">
+      <tspan x="404.352" y="259.101"></tspan>
+    </text>
+  </g>
+  <text font-size="4.51549" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="397.357" y="250.101">
+    <tspan x="397.357" y="250.101"></tspan>
+    <tspan x="397.357" y="255.745">*.js</tspan>
+  </text>
+  <g>
+    <g>
+      <path style="fill: #12e8fa" d="M 263.637 210.101 L 285.066,210.101 C 288.28,216.101 289.352,219.101 289.352,225.101 C 289.352,231.101 288.28,234.101 285.066,240.101 L 263.637,240.101 L 259.352,225.101 L 263.637,210.101z"/>
+      <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 263.637 210.101 L 285.066,210.101 C 288.28,216.101 289.352,219.101 289.352,225.101 C 289.352,231.101 288.28,234.101 285.066,240.101 L 263.637,240.101 L 259.352,225.101 L 263.637,210.101"/>
+      <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="274.352" y="229.101">
+        <tspan x="274.352" y="229.101"></tspan>
+      </text>
+    </g>
+    <text font-size="4.51549" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="267.357" y="220.101">
+      <tspan x="267.357" y="220.101"></tspan>
+      <tspan x="267.357" y="225.745">*.rb</tspan>
+    </text>
+  </g>
+  <text font-size="4.51549" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="409.352" y="210.101">
+    <tspan x="409.352" y="210.101">Vagrant/front</tspan>
+  </text>
+  <text font-size="4.51549" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="409.352" y="120.101">
+    <tspan x="409.352" y="120.101">Amazon/EC2</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="368.846" y="49.2771">
+    <tspan x="368.846" y="49.2771"></tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="339.352" y="40.1006" width="40" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="339.352" y="40.1006" width="40" height="40"/>
+  </g>
+  <text font-size="4.51549" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="349.352" y="50.1006">
+    <tspan x="349.352" y="50.1006">Nginx</tspan>
+    <tspan x="349.352" y="55.745"></tspan>
+  </text>
+  <g>
+    <g>
+      <path style="fill: #12e8fa" d="M 393.637 40.1006 L 415.066,40.1006 C 418.28,46.1006 419.352,49.1006 419.352,55.1006 C 419.352,61.1006 418.28,64.1006 415.066,70.1006 L 393.637,70.1006 L 389.352,55.1006 L 393.637,40.1006z"/>
+      <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 393.637 40.1006 L 415.066,40.1006 C 418.28,46.1006 419.352,49.1006 419.352,55.1006 C 419.352,61.1006 418.28,64.1006 415.066,70.1006 L 393.637,70.1006 L 389.352,55.1006 L 393.637,40.1006"/>
+      <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="404.352" y="59.1006">
+        <tspan x="404.352" y="59.1006"></tspan>
+      </text>
+    </g>
+    <text font-size="4.51549" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="397.357" y="50.1006">
+      <tspan x="397.357" y="50.1006">*.html</tspan>
+      <tspan x="397.357" y="55.745">*.css</tspan>
+      <tspan x="397.357" y="61.3895">*.js</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="339.352" y="80.1006" width="40" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="339.352" y="80.1006" width="40" height="40"/>
+  </g>
+  <text font-size="4.51549" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="349.352" y="90.1006">
+    <tspan x="349.352" y="90.1006">Express</tspan>
+    <tspan x="349.352" y="95.745">Node</tspan>
+    <tspan x="349.352" y="101.389">MongoDB</tspan>
+    <tspan x="349.352" y="107.034"></tspan>
+  </text>
+  <g>
+    <path style="fill: #12e8fa" d="M 393.637 80.1006 L 415.066,80.1006 C 418.28,86.1006 419.352,89.1006 419.352,95.1006 C 419.352,101.101 418.28,104.101 415.066,110.101 L 393.637,110.101 L 389.352,95.1006 L 393.637,80.1006z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 393.637 80.1006 L 415.066,80.1006 C 418.28,86.1006 419.352,89.1006 419.352,95.1006 C 419.352,101.101 418.28,104.101 415.066,110.101 L 393.637,110.101 L 389.352,95.1006 L 393.637,80.1006"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="404.352" y="99.1006">
+      <tspan x="404.352" y="99.1006"></tspan>
+    </text>
+  </g>
+  <text font-size="4.51549" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="397.357" y="90.1006">
+    <tspan x="397.357" y="90.1006"></tspan>
+    <tspan x="397.357" y="95.745">*.js</tspan>
+  </text>
+  <line style="fill: none; fill-opacity:0; stroke-width: 3.52778; stroke-dasharray: 20 8 4 8; stroke: #000000" x1="19.3516" y1="140.101" x2="459.352" y2="140.101"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 3.6; stroke-dasharray: 20 8 4 8; stroke: #000000" x1="320.913" y1="5.09172" x2="320" y2="300"/>
+  <g>
+    <rect style="fill: #ffffff" x="45.3516" y="50.1006" width="68" height="60"/>
+    <ellipse style="fill: #ffffff" cx="79.3516" cy="110.101" rx="34" ry="10"/>
+    <ellipse style="fill: #ffffff" cx="79.3516" cy="50.1006" rx="34" ry="10"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="79.3516" cy="50.1006" rx="34" ry="10"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 113.352 50.1006 L 113.352,110.101 C 113.352,115.623 98.1293,120.101 79.3516,120.101 C 60.5739,120.101 45.3516,115.623 45.3516,110.101 L 45.3516,50.1006"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="79.3516" y="132.101">
+      <tspan x="79.3516" y="132.101"></tspan>
+    </text>
+  </g>
+  <text font-size="5.64444" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="73.6853" y="55.9829">
+    <tspan x="73.6853" y="55.9829">??</tspan>
+  </text>
+  <g>
+    <g>
+      <path style="fill: #12e8fa" d="M 66.3236 80.1006 L 87.7521,80.1006 C 90.9664,86.1006 92.0378,89.1006 92.0378,95.1006 C 92.0378,101.101 90.9664,104.101 87.7521,110.101 L 66.3236,110.101 L 62.0378,95.1006 L 66.3236,80.1006z"/>
+      <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 66.3236 80.1006 L 87.7521,80.1006 C 90.9664,86.1006 92.0378,89.1006 92.0378,95.1006 C 92.0378,101.101 90.9664,104.101 87.7521,110.101 L 66.3236,110.101 L 62.0378,95.1006 L 66.3236,80.1006"/>
+      <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="77.0378" y="99.1006">
+        <tspan x="77.0378" y="99.1006"></tspan>
+      </text>
+    </g>
+    <text font-size="4.51549" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="66.8841" y="90.1006">
+      <tspan x="66.8841" y="90.1006">backlogs</tspan>
+      <tspan x="66.8841" y="95.745">- product</tspan>
+      <tspan x="66.8841" y="101.389">- sprint</tspan>
+      <tspan x="66.8841" y="107.034"></tspan>
+    </text>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="318.319" y="68.6354">
+    <tspan x="318.319" y="68.6354"></tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="330.374" y="15.5652">
+    <tspan x="330.374" y="15.5652">Execution environment</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="40.3481" y="15.5652">
+    <tspan x="40.3481" y="15.5652">Development environment</tspan>
+  </text>
+  <g>
+    <path style="fill: #ffffff" d="M 8.10264 264.305 L 8.25254,261.732 L 16.7343,259.493 L 8.05426,257.317 L 8.20415,254.744 L 16.6859,252.505 L 8.0639,250.636 L 8.15577,247.757 L 20.0805,250.274 L 20.1047,253.768 L 11.0088,256.123 L 19.996,258.241 L 20.0201,261.734 L 8.10264,264.305z"/>
+    <path style="fill: #ffffff" d="M 12.937 241.924 C 13.0531,242.538 13.3849,243.032 13.8413,243.343 C 14.1586,243.76 14.8018,243.798 15.7997,243.609 C 16.6877,243.68 17.3018,243.564 17.6421,243.261 C 18.0737,243.02 18.1402,242.531 18.0241,241.917 C 18.1529,241.336 18.0513,240.798 17.734,240.381 C 17.2486,239.916 16.5474,239.572 15.6595,239.501 C 14.6615,239.69 14.0142,240.051 13.6261,240.521 C 13.2858,240.824 13.0658,241.343 12.937,241.924 L 12.937,241.924z"/>
+    <path style="fill: #ffffff" d="M 11.0366 241.965 C 11.2361,240.496 11.7239,239.291 12.6058,238.488 C 13.3051,237.561 14.3986,237.036 15.8094,236.929 C 17.1247,237.157 18.1764,237.674 18.9792,238.556 C 19.9064,239.255 20.3543,240.363 20.2316,241.817 C 20.277,243.319 19.8804,244.587 19.0276,245.543 C 18.1457,246.346 17.0232,246.717 15.7079,246.489 C 14.2971,246.596 13.1208,246.262 12.3471,245.534 C 11.6211,244.637 11.1587,243.452 11.0366,241.965 L 11.0366,241.965z"/>
+    <path style="fill: #ffffff" d="M 13.753 228.571 C 13.5994,228.6 13.4894,228.86 13.562,229.243 C 13.452,229.503 13.3419,229.762 13.371,229.916 C 13.3335,230.559 13.5408,231.235 14.0262,231.7 C 14.5738,232.074 15.246,232.265 16.0427,232.273 L 20.1506,232.133 L 20.0587,235.012 L 11.1708,235.102 L 11.2626,232.222 L 12.856,232.239 C 12.2171,231.803 11.7317,231.339 11.6446,230.878 C 11.4186,230.523 11.1635,230.015 11.0474,229.401 C 11.0184,229.247 10.9894,229.094 10.9894,229.094 C 10.9604,228.94 11.0849,228.757 11.2384,228.728 L 13.753,228.571z"/>
+    <path style="fill: #ffffff" d="M 7.69932 227.251 L 7.79118,224.371 L 14.7787,224.323 L 11.0117,221.218 L 11.0456,218.031 L 15.2937,221.999 L 20.1245,217.27 L 19.8417,220.822 L 16.3721,224.339 L 20.1729,224.257 L 20.0811,227.137 L 7.69932,227.251z"/>
+    <path style="fill: #ffffff" d="M 11.4269 209.531 L 13.6344,209.432 C 13.3667,210.119 13.1902,210.868 13.0614,211.449 C 13.0239,212.092 12.972,212.658 13.0445,213.042 C 12.978,213.532 13.0505,213.916 13.2766,214.27 C 13.3201,214.501 13.4882,214.548 13.6417,214.519 C 13.872,214.476 14.0878,214.356 14.1978,214.096 C 14.3991,213.899 14.5714,213.549 14.6378,213.059 L 14.5218,212.445 C 14.5345,211.25 14.8355,210.318 15.2858,209.756 C 15.6739,209.285 16.3503,209.078 17.3772,209.043 C 18.2217,208.883 18.8461,209.242 19.4517,209.923 C 19.9952,210.695 20.275,211.755 20.3391,212.936 C 20.2249,213.593 20.1251,214.328 20.0731,214.894 C 19.9589,215.552 19.8592,216.286 19.8072,216.853 L 17.5997,216.952 C 17.9588,216.327 18.1643,215.732 18.2308,215.242 C 18.1292,214.705 18.1522,213.985 18.1896,213.342 C 18.0881,212.805 18.1546,212.315 18.2646,212.056 C 18.2356,211.902 18.053,211.778 17.5924,211.865 C 17.4099,211.74 17.1796,211.784 16.9783,211.981 C 16.8683,212.24 16.696,212.591 16.5383,213.018 L 16.6543,213.632 C 16.3491,214.962 15.9713,215.908 15.5832,216.379 C 15.1329,216.941 14.3798,217.163 13.4918,217.092 C 12.7241,217.237 12.1142,216.955 11.7244,216.154 C 11.4258,215.415 11.2227,214.341 11.1441,213.083 C 11.0715,212.699 11.1235,212.133 11.161,211.49 C 11.0594,210.953 11.1592,210.218 11.4269,209.531 L 11.4269,209.531z"/>
+    <path style="fill: #ffffff" d="M 8.96133 203.637 L 11.2268,203.845 L 11.0116,201.023 L 13.2191,200.924 L 13.4343,203.746 L 17.2352,203.663 C 17.509,203.85 17.7393,203.807 17.8493,203.547 C 18.0506,203.35 18.0838,203.105 18.0403,202.875 L 18.0572,201.282 L 19.9576,201.241 L 20.0568,203.448 C 20.0586,204.72 19.7576,205.651 19.2928,206.137 C 18.7989,206.469 18.0312,206.614 17.1433,206.543 L 13.3425,206.625 L 13.2675,207.911 L 11.06,208.011 L 11.135,206.724 L 8.86946,206.516 L 8.96133,203.637z"/>
+    <path style="fill: #ffffff" d="M 15.8219 195.344 C 15.938,195.958 16.193,196.466 16.4191,196.821 C 16.6929,197.008 16.9377,197.041 17.0913,197.012 C 17.5954,197.155 17.9025,197.097 18.0125,196.838 C 18.2138,196.641 18.2325,196.319 18.1454,195.859 C 18.0439,195.321 17.8656,194.798 17.5482,194.381 C 17.3222,194.026 16.9716,193.854 16.511,193.941 L 15.8968,194.057 L 15.8219,195.344z"/>
+    <path style="fill: #ffffff" d="M 15.0095 191.045 L 20.0966,191.037 L 20.0048,193.917 L 18.7185,193.842 C 19.1893,194.23 19.598,194.709 19.9298,195.203 C 20.1704,195.635 20.2719,196.172 20.22,196.739 C 20.1492,197.627 19.8337,198.481 19.3979,199.12 C 18.9476,199.682 18.1177,199.919 16.9994,199.892 C 16.2027,199.883 15.5783,199.524 15.232,198.953 C 14.9334,198.215 14.7157,197.063 14.5936,195.576 L 14.6106,193.982 L 14.3035,194.04 C 13.8907,193.959 13.5981,194.094 13.4403,194.522 C 13.1,194.824 12.9713,195.405 13.1163,196.173 C 13.0499,196.663 12.9979,197.229 13.0994,197.766 C 13.2155,198.38 13.4561,198.812 13.6386,198.936 L 11.4311,199.036 C 11.2051,198.681 11.1035,198.143 11.141,197.5 C 11.2697,196.919 11.2159,196.214 11.0999,195.6 C 11.0255,193.944 11.3743,192.845 12.0549,192.239 C 12.7978,191.542 13.829,191.109 15.0095,191.045 L 15.0095,191.045z"/>
+    <path style="fill: #ffffff" d="M 8.97334 185.189 L 11.2389,185.397 L 11.0237,182.575 L 13.2311,182.476 L 13.4463,185.297 L 17.2472,185.215 C 17.521,185.402 17.7513,185.359 17.8613,185.099 C 18.0626,184.902 18.0958,184.657 18.0523,184.427 L 18.0692,182.834 L 19.9696,182.793 L 20.0688,185 C 20.0706,186.272 19.7696,187.203 19.3048,187.689 C 18.8109,188.021 18.0433,188.166 17.1553,188.095 L 13.3545,188.177 L 13.2795,189.463 L 11.072,189.563 L 11.147,188.276 L 8.88147,188.068 L 8.97334,185.189z"/>
+    <path style="fill: #ffffff" d="M 11.1941 180.953 L 11.286,178.073 L 20.1739,177.983 L 20.0821,180.863 L 11.1941,180.953z"/>
+    <path style="fill: #ffffff" d="M 7.70033 180.977 L 7.7922,178.097 L 10.3067,177.94 L 10.2149,180.82 L 7.70033,180.977z"/>
+    <path style="fill: #ffffff" d="M 12.9512 171.318 C 13.0673,171.932 13.3991,172.426 13.8555,172.737 C 14.1728,173.155 14.816,173.192 15.814,173.003 C 16.7019,173.074 17.316,172.958 17.6563,172.655 C 18.0879,172.415 18.1544,171.925 18.0384,171.311 C 18.1671,170.73 18.0655,170.193 17.7482,169.776 C 17.2628,169.311 16.5617,168.966 15.6737,168.895 C 14.6757,169.084 14.0284,169.445 13.6403,169.916 C 13.3,170.219 13.08,170.737 12.9512,171.318 L 12.9512,171.318z"/>
+    <path style="fill: #ffffff" d="M 11.0508 171.359 C 11.2503,169.89 11.7381,168.685 12.62,167.882 C 13.3193,166.955 14.4128,166.43 15.8236,166.323 C 17.1389,166.551 18.1907,167.068 18.9934,167.95 C 19.9206,168.649 20.3685,169.757 20.2458,171.212 C 20.2912,172.714 19.8947,173.981 19.0418,174.938 C 18.1599,175.74 17.0374,176.112 15.7221,175.883 C 14.3113,175.991 13.135,175.656 12.3613,174.928 C 11.6353,174.032 11.1729,172.847 11.0508,171.359 L 11.0508,171.359z"/>
+    <path style="fill: #ffffff" d="M 14.5747 155.507 L 19.9689,155.442 L 19.8771,158.322 L 19.2629,158.438 L 15.7692,158.462 C 14.9725,158.453 14.4061,158.401 14.1758,158.445 C 13.9933,158.32 13.763,158.364 13.5617,158.561 C 13.5617,158.561 13.5907,158.715 13.6197,158.868 C 13.5097,159.127 13.3997,159.387 13.4287,159.54 C 13.3622,160.03 13.5405,160.553 14.0259,161.018 C 14.5736,161.391 15.2167,161.429 15.9844,161.284 L 20.1503,161.45 L 20.0584,164.33 L 11.1705,164.419 L 11.2623,161.54 L 12.5486,161.615 C 12.0632,161.15 11.7314,160.656 11.6443,160.196 C 11.3893,159.687 11.1342,159.179 11.0471,158.718 C 11.0888,157.677 11.4956,156.884 12.1762,156.279 C 12.7178,155.779 13.5478,155.542 14.5747,155.507 L 14.5747,155.507z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.8; stroke-linecap: round; stroke: #000000" d="M 8.10264 264.305 L 8.25254,261.732 L 16.7343,259.493 L 8.05426,257.317 L 8.20415,254.744 L 16.6859,252.505 L 8.0639,250.636 L 8.15577,247.757 L 20.0805,250.274 L 20.1047,253.768 L 11.0088,256.123 L 19.996,258.241 L 20.0201,261.734 L 8.10264,264.305"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.8; stroke-linecap: round; stroke: #000000" d="M 12.937 241.924 C 13.0531,242.538 13.3849,243.032 13.8413,243.343 C 14.1586,243.76 14.8018,243.798 15.7997,243.609 C 16.6877,243.68 17.3018,243.564 17.6421,243.261 C 18.0737,243.02 18.1402,242.531 18.0241,241.917 C 18.1529,241.336 18.0513,240.798 17.734,240.381 C 17.2486,239.916 16.5474,239.572 15.6595,239.501 C 14.6615,239.69 14.0142,240.051 13.6261,240.521 C 13.2858,240.824 13.0658,241.343 12.937,241.924 L 12.937,241.924"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.8; stroke-linecap: round; stroke: #000000" d="M 11.0366 241.965 C 11.2361,240.496 11.7239,239.291 12.6058,238.488 C 13.3051,237.561 14.3986,237.036 15.8094,236.929 C 17.1247,237.157 18.1764,237.674 18.9792,238.556 C 19.9064,239.255 20.3543,240.363 20.2316,241.817 C 20.277,243.319 19.8804,244.587 19.0276,245.543 C 18.1457,246.346 17.0232,246.717 15.7079,246.489 C 14.2971,246.596 13.1208,246.262 12.3471,245.534 C 11.6211,244.637 11.1587,243.452 11.0366,241.965 L 11.0366,241.965"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.8; stroke-linecap: round; stroke: #000000" d="M 13.753 228.571 C 13.5994,228.6 13.4894,228.86 13.562,229.243 C 13.452,229.503 13.3419,229.762 13.371,229.916 C 13.3335,230.559 13.5408,231.235 14.0262,231.7 C 14.5738,232.074 15.246,232.265 16.0427,232.273 L 20.1506,232.133 L 20.0587,235.012 L 11.1708,235.102 L 11.2626,232.222 L 12.856,232.239 C 12.2171,231.803 11.7317,231.339 11.6446,230.878 C 11.4186,230.523 11.1635,230.015 11.0474,229.401 C 11.0184,229.247 10.9894,229.094 10.9894,229.094 C 10.9604,228.94 11.0849,228.757 11.2384,228.728 L 13.753,228.571"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.8; stroke-linecap: round; stroke: #000000" d="M 7.69932 227.251 L 7.79118,224.371 L 14.7787,224.323 L 11.0117,221.218 L 11.0456,218.031 L 15.2937,221.999 L 20.1245,217.27 L 19.8417,220.822 L 16.3721,224.339 L 20.1729,224.257 L 20.0811,227.137 L 7.69932,227.251"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.8; stroke-linecap: round; stroke: #000000" d="M 11.4269 209.531 L 13.6344,209.432 C 13.3667,210.119 13.1902,210.868 13.0614,211.449 C 13.0239,212.092 12.972,212.658 13.0445,213.042 C 12.978,213.532 13.0505,213.916 13.2766,214.27 C 13.3201,214.501 13.4882,214.548 13.6417,214.519 C 13.872,214.476 14.0878,214.356 14.1978,214.096 C 14.3991,213.899 14.5714,213.549 14.6378,213.059 L 14.5218,212.445 C 14.5345,211.25 14.8355,210.318 15.2858,209.756 C 15.6739,209.285 16.3503,209.078 17.3772,209.043 C 18.2217,208.883 18.8461,209.242 19.4517,209.923 C 19.9952,210.695 20.275,211.755 20.3391,212.936 C 20.2249,213.593 20.1251,214.328 20.0731,214.894 C 19.9589,215.552 19.8592,216.286 19.8072,216.853 L 17.5997,216.952 C 17.9588,216.327 18.1643,215.732 18.2308,215.242 C 18.1292,214.705 18.1522,213.985 18.1896,213.342 C 18.0881,212.805 18.1546,212.315 18.2646,212.056 C 18.2356,211.902 18.053,211.778 17.5924,211.865 C 17.4099,211.74 17.1796,211.784 16.9783,211.981 C 16.8683,212.24 16.696,212.591 16.5383,213.018 L 16.6543,213.632 C 16.3491,214.962 15.9713,215.908 15.5832,216.379 C 15.1329,216.941 14.3798,217.163 13.4918,217.092 C 12.7241,217.237 12.1142,216.955 11.7244,216.154 C 11.4258,215.415 11.2227,214.341 11.1441,213.083 C 11.0715,212.699 11.1235,212.133 11.161,211.49 C 11.0594,210.953 11.1592,210.218 11.4269,209.531 L 11.4269,209.531"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.8; stroke-linecap: round; stroke: #000000" d="M 8.96133 203.637 L 11.2268,203.845 L 11.0116,201.023 L 13.2191,200.924 L 13.4343,203.746 L 17.2352,203.663 C 17.509,203.85 17.7393,203.807 17.8493,203.547 C 18.0506,203.35 18.0838,203.105 18.0403,202.875 L 18.0572,201.282 L 19.9576,201.241 L 20.0568,203.448 C 20.0586,204.72 19.7576,205.651 19.2928,206.137 C 18.7989,206.469 18.0312,206.614 17.1433,206.543 L 13.3425,206.625 L 13.2675,207.911 L 11.06,208.011 L 11.135,206.724 L 8.86946,206.516 L 8.96133,203.637"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.8; stroke-linecap: round; stroke: #000000" d="M 15.8219 195.344 C 15.938,195.958 16.193,196.466 16.4191,196.821 C 16.6929,197.008 16.9377,197.041 17.0913,197.012 C 17.5954,197.155 17.9025,197.097 18.0125,196.838 C 18.2138,196.641 18.2325,196.319 18.1454,195.859 C 18.0439,195.321 17.8656,194.798 17.5482,194.381 C 17.3222,194.026 16.9716,193.854 16.511,193.941 L 15.8968,194.057 L 15.8219,195.344"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.8; stroke-linecap: round; stroke: #000000" d="M 15.0095 191.045 L 20.0966,191.037 L 20.0048,193.917 L 18.7185,193.842 C 19.1893,194.23 19.598,194.709 19.9298,195.203 C 20.1704,195.635 20.2719,196.172 20.22,196.739 C 20.1492,197.627 19.8337,198.481 19.3979,199.12 C 18.9476,199.682 18.1177,199.919 16.9994,199.892 C 16.2027,199.883 15.5783,199.524 15.232,198.953 C 14.9334,198.215 14.7157,197.063 14.5936,195.576 L 14.6106,193.982 L 14.3035,194.04 C 13.8907,193.959 13.5981,194.094 13.4403,194.522 C 13.1,194.824 12.9713,195.405 13.1163,196.173 C 13.0499,196.663 12.9979,197.229 13.0994,197.766 C 13.2155,198.38 13.4561,198.812 13.6386,198.936 L 11.4311,199.036 C 11.2051,198.681 11.1035,198.143 11.141,197.5 C 11.2697,196.919 11.2159,196.214 11.0999,195.6 C 11.0255,193.944 11.3743,192.845 12.0549,192.239 C 12.7978,191.542 13.829,191.109 15.0095,191.045 L 15.0095,191.045"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.8; stroke-linecap: round; stroke: #000000" d="M 8.97334 185.189 L 11.2389,185.397 L 11.0237,182.575 L 13.2311,182.476 L 13.4463,185.297 L 17.2472,185.215 C 17.521,185.402 17.7513,185.359 17.8613,185.099 C 18.0626,184.902 18.0958,184.657 18.0523,184.427 L 18.0692,182.834 L 19.9696,182.793 L 20.0688,185 C 20.0706,186.272 19.7696,187.203 19.3048,187.689 C 18.8109,188.021 18.0433,188.166 17.1553,188.095 L 13.3545,188.177 L 13.2795,189.463 L 11.072,189.563 L 11.147,188.276 L 8.88147,188.068 L 8.97334,185.189"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.8; stroke-linecap: round; stroke: #000000" d="M 11.1941 180.953 L 11.286,178.073 L 20.1739,177.983 L 20.0821,180.863 L 11.1941,180.953"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.8; stroke-linecap: round; stroke: #000000" d="M 7.70033 180.977 L 7.7922,178.097 L 10.3067,177.94 L 10.2149,180.82 L 7.70033,180.977"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.8; stroke-linecap: round; stroke: #000000" d="M 12.9512 171.318 C 13.0673,171.932 13.3991,172.426 13.8555,172.737 C 14.1728,173.155 14.816,173.192 15.814,173.003 C 16.7019,173.074 17.316,172.958 17.6563,172.655 C 18.0879,172.415 18.1544,171.925 18.0384,171.311 C 18.1671,170.73 18.0655,170.193 17.7482,169.776 C 17.2628,169.311 16.5617,168.966 15.6737,168.895 C 14.6757,169.084 14.0284,169.445 13.6403,169.916 C 13.3,170.219 13.08,170.737 12.9512,171.318 L 12.9512,171.318"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.8; stroke-linecap: round; stroke: #000000" d="M 11.0508 171.359 C 11.2503,169.89 11.7381,168.685 12.62,167.882 C 13.3193,166.955 14.4128,166.43 15.8236,166.323 C 17.1389,166.551 18.1907,167.068 18.9934,167.95 C 19.9206,168.649 20.3685,169.757 20.2458,171.212 C 20.2912,172.714 19.8947,173.981 19.0418,174.938 C 18.1599,175.74 17.0374,176.112 15.7221,175.883 C 14.3113,175.991 13.135,175.656 12.3613,174.928 C 11.6353,174.032 11.1729,172.847 11.0508,171.359 L 11.0508,171.359"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.8; stroke-linecap: round; stroke: #000000" d="M 14.5747 155.507 L 19.9689,155.442 L 19.8771,158.322 L 19.2629,158.438 L 15.7692,158.462 C 14.9725,158.453 14.4061,158.401 14.1758,158.445 C 13.9933,158.32 13.763,158.364 13.5617,158.561 C 13.5617,158.561 13.5907,158.715 13.6197,158.868 C 13.5097,159.127 13.3997,159.387 13.4287,159.54 C 13.3622,160.03 13.5405,160.553 14.0259,161.018 C 14.5736,161.391 15.2167,161.429 15.9844,161.284 L 20.1503,161.45 L 20.0584,164.33 L 11.1705,164.419 L 11.2623,161.54 L 12.5486,161.615 C 12.0632,161.15 11.7314,160.656 11.6443,160.196 C 11.3893,159.687 11.1342,159.179 11.0471,158.718 C 11.0888,157.677 11.4956,156.884 12.1762,156.279 C 12.7178,155.779 13.5478,155.542 14.5747,155.507 L 14.5747,155.507"/>
+  </g>
+  <g>
+    <path style="fill: #ffffff" d="M 11.5554 125.972 L 11.6472,123.093 L 23.4148,123.095 L 23.323,125.975 L 11.5554,125.972z"/>
+    <path style="fill: #ffffff" d="M 17.884 111.498 L 23.2782,111.433 L 23.1863,114.313 L 22.5722,114.429 L 19.0784,114.453 C 18.2817,114.445 17.7154,114.393 17.4851,114.436 C 17.3025,114.312 17.0722,114.355 16.8709,114.552 C 16.8709,114.552 16.8999,114.706 16.929,114.859 C 16.8189,115.119 16.7089,115.378 16.7379,115.531 C 16.6715,116.021 16.8498,116.544 17.3352,117.009 C 17.8828,117.382 18.5259,117.42 19.2936,117.275 L 23.4595,117.441 L 23.3677,120.321 L 14.4797,120.411 L 14.5716,117.531 L 15.8579,117.606 C 15.3725,117.141 15.0406,116.647 14.9536,116.187 C 14.6985,115.678 14.4434,115.17 14.3564,114.709 C 14.3981,113.668 14.8049,112.875 15.4855,112.27 C 16.0271,111.77 16.857,111.533 17.884,111.498 L 17.884,111.498z"/>
+    <path style="fill: #ffffff" d="M 12.2462 105.647 L 14.5117,105.855 L 14.2965,103.033 L 16.504,102.934 L 16.7192,105.755 L 20.52,105.673 C 20.7938,105.86 21.0241,105.816 21.1341,105.557 C 21.3354,105.36 21.3687,105.115 21.3251,104.885 L 21.3421,103.292 L 23.2425,103.251 L 23.3416,105.458 C 23.3434,106.73 23.0424,107.661 22.5776,108.147 C 22.0838,108.479 21.3161,108.624 20.4281,108.553 L 16.6273,108.635 L 16.5524,109.921 L 14.3449,110.021 L 14.4198,108.734 L 12.1543,108.526 L 12.2462,105.647z"/>
+    <path style="fill: #ffffff" d="M 18.8504 92.6314 L 19.8297,92.7644 L 19.762,99.1378 C 20.3761,99.0217 20.899,98.8434 21.2393,98.5406 C 21.397,98.1132 21.5113,97.4556 21.5052,96.5821 C 21.4327,96.1983 21.3311,95.661 21.2151,95.0468 C 21.07,94.2792 20.8337,93.4492 20.4438,92.6483 L 22.7093,92.8563 C 22.8254,93.4704 22.9704,94.238 23.1155,95.0057 C 23.3851,95.5908 23.5157,96.2817 23.4637,96.8481 C 23.5525,98.5805 23.1705,99.9248 22.3176,100.881 C 21.4357,101.684 20.3133,102.055 18.998,101.826 C 17.5872,101.934 16.4109,101.6 15.6372,100.871 C 14.9112,99.975 14.4488,98.7903 14.3267,97.3027 C 14.2959,95.8774 14.7069,94.6866 15.5888,93.8839 C 16.562,93.1434 17.6699,92.6955 18.8504,92.6314 L 18.8504,92.6314z"/>
+    <path style="fill: #ffffff" d="M 17.7793 95.3781 C 17.213,95.3261 16.7669,95.4899 16.6091,95.9173 C 16.4991,96.1766 16.3559,96.6807 16.2271,97.2616 C 16.3141,97.7222 16.5402,98.077 16.7663,98.4318 C 16.8098,98.6621 17.2517,98.8966 17.8616,99.1789z"/>
+    <path style="fill: #ffffff" d="M 17.0576 83.9858 C 16.904,84.0149 16.794,84.2742 16.8666,84.658 C 16.7566,84.9173 16.6465,85.1766 16.6756,85.3302 C 16.6381,85.9733 16.8454,86.6497 17.3308,87.1145 C 17.8784,87.4881 18.5506,87.6791 19.3473,87.6875 L 23.4552,87.5473 L 23.3633,90.4269 L 14.4754,90.5164 L 14.5672,87.6368 L 16.1606,87.6537 C 15.5217,87.2179 15.0363,86.7531 14.9492,86.2925 C 14.7232,85.9377 14.4681,85.4293 14.352,84.8152 C 14.323,84.6616 14.294,84.5081 14.294,84.5081 C 14.265,84.3546 14.3895,84.172 14.543,84.143 L 17.0576,83.9858z"/>
+    <path style="fill: #ffffff" d="M 17.902 73.7288 L 23.2962,73.6635 L 23.2043,76.5431 L 22.5902,76.6592 L 19.0964,76.6834 C 18.2997,76.6749 17.7333,76.6229 17.503,76.6665 C 17.3205,76.5419 17.0902,76.5855 16.8889,76.7825 C 16.8889,76.7825 16.9179,76.936 16.9469,77.0896 C 16.8369,77.3489 16.7269,77.6082 16.7559,77.7617 C 16.6894,78.2513 16.8678,78.7742 17.3531,79.239 C 17.9008,79.6126 18.5439,79.6501 19.3116,79.505 L 23.4775,79.6718 L 23.3856,82.5514 L 14.4977,82.6409 L 14.5896,79.7613 L 15.8758,79.8362 C 15.3905,79.3714 15.0586,78.8776 14.9716,78.417 C 14.7165,77.9086 14.4614,77.4003 14.3744,76.9397 C 14.4161,75.8982 14.8229,75.1057 15.5035,74.5001 C 16.0451,74.0002 16.875,73.7638 17.902,73.7288 L 17.902,73.7288z"/>
+    <path style="fill: #ffffff" d="M 18.8793 62.4925 L 19.8585,62.6255 L 19.7909,68.9989 C 20.405,68.8828 20.9279,68.7045 21.2682,68.4017 C 21.4259,67.9743 21.5402,67.3167 21.5341,66.4432 C 21.4616,66.0594 21.36,65.522 21.244,64.9079 C 21.0989,64.1402 20.8626,63.3103 20.4727,62.5094 L 22.7382,62.7173 C 22.8543,63.3315 22.9993,64.0991 23.1444,64.8668 C 23.414,65.4519 23.5446,66.1428 23.4926,66.7092 C 23.5814,68.4416 23.1994,69.7859 22.3465,70.7421 C 21.4646,71.5449 20.3422,71.916 19.0269,71.6875 C 17.616,71.7951 16.4398,71.4609 15.6661,70.7325 C 14.9401,69.8361 14.4777,68.6513 14.3556,67.1638 C 14.3247,65.7385 14.7358,64.5477 15.6177,63.7449 C 16.5908,63.0045 17.6988,62.5566 18.8793,62.4925 L 18.8793,62.4925z"/>
+    <path style="fill: #ffffff" d="M 17.8082 65.2392 C 17.2419,65.1872 16.7958,65.351 16.638,65.7783 C 16.528,66.0376 16.3847,66.5418 16.256,67.1227 C 16.343,67.5833 16.5691,67.9381 16.7952,68.2929 C 16.8387,68.5232 17.2806,68.7577 17.8905,69.04z"/>
+    <path style="fill: #ffffff" d="M 12.2726 56.9829 L 14.5381,57.1908 L 14.3229,54.3692 L 16.5304,54.27 L 16.7456,57.0917 L 20.5464,57.0094 C 20.8202,57.1962 21.0505,57.1527 21.1605,56.8934 C 21.3618,56.6963 21.3951,56.4515 21.3515,56.2212 L 21.3685,54.6279 L 23.2689,54.5868 L 23.368,56.7942 C 23.3698,58.066 23.0688,58.9975 22.604,59.4829 C 22.1101,59.8147 21.3425,59.9598 20.4545,59.8891 L 16.6537,59.9713 L 16.5787,61.2576 L 14.3713,61.3567 L 14.4462,60.0704 L 12.1807,59.8625 L 12.2726,56.9829z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.8; stroke-linecap: round; stroke: #000000" d="M 11.5554 125.972 L 11.6472,123.093 L 23.4148,123.095 L 23.323,125.975 L 11.5554,125.972"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.8; stroke-linecap: round; stroke: #000000" d="M 17.884 111.498 L 23.2782,111.433 L 23.1863,114.313 L 22.5722,114.429 L 19.0784,114.453 C 18.2817,114.445 17.7154,114.393 17.4851,114.436 C 17.3025,114.312 17.0722,114.355 16.8709,114.552 C 16.8709,114.552 16.8999,114.706 16.929,114.859 C 16.8189,115.119 16.7089,115.378 16.7379,115.531 C 16.6715,116.021 16.8498,116.544 17.3352,117.009 C 17.8828,117.382 18.5259,117.42 19.2936,117.275 L 23.4595,117.441 L 23.3677,120.321 L 14.4797,120.411 L 14.5716,117.531 L 15.8579,117.606 C 15.3725,117.141 15.0406,116.647 14.9536,116.187 C 14.6985,115.678 14.4434,115.17 14.3564,114.709 C 14.3981,113.668 14.8049,112.875 15.4855,112.27 C 16.0271,111.77 16.857,111.533 17.884,111.498 L 17.884,111.498"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.8; stroke-linecap: round; stroke: #000000" d="M 12.2462 105.647 L 14.5117,105.855 L 14.2965,103.033 L 16.504,102.934 L 16.7192,105.755 L 20.52,105.673 C 20.7938,105.86 21.0241,105.816 21.1341,105.557 C 21.3354,105.36 21.3687,105.115 21.3251,104.885 L 21.3421,103.292 L 23.2425,103.251 L 23.3416,105.458 C 23.3434,106.73 23.0424,107.661 22.5776,108.147 C 22.0838,108.479 21.3161,108.624 20.4281,108.553 L 16.6273,108.635 L 16.5524,109.921 L 14.3449,110.021 L 14.4198,108.734 L 12.1543,108.526 L 12.2462,105.647"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.8; stroke-linecap: round; stroke: #000000" d="M 18.8504 92.6314 L 19.8297,92.7644 L 19.762,99.1378 C 20.3761,99.0217 20.899,98.8434 21.2393,98.5406 C 21.397,98.1132 21.5113,97.4556 21.5052,96.5821 C 21.4327,96.1983 21.3311,95.661 21.2151,95.0468 C 21.07,94.2792 20.8337,93.4492 20.4438,92.6483 L 22.7093,92.8563 C 22.8254,93.4704 22.9704,94.238 23.1155,95.0057 C 23.3851,95.5908 23.5157,96.2817 23.4637,96.8481 C 23.5525,98.5805 23.1705,99.9248 22.3176,100.881 C 21.4357,101.684 20.3133,102.055 18.998,101.826 C 17.5872,101.934 16.4109,101.6 15.6372,100.871 C 14.9112,99.975 14.4488,98.7903 14.3267,97.3027 C 14.2959,95.8774 14.7069,94.6866 15.5888,93.8839 C 16.562,93.1434 17.6699,92.6955 18.8504,92.6314 L 18.8504,92.6314"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.8; stroke-linecap: round; stroke: #000000" d="M 17.7793 95.3781 C 17.213,95.3261 16.7669,95.4899 16.6091,95.9173 C 16.4991,96.1766 16.3559,96.6807 16.2271,97.2616 C 16.3141,97.7222 16.5402,98.077 16.7663,98.4318 C 16.8098,98.6621 17.2517,98.8966 17.8616,99.1789 L 17.7793,95.3781"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.8; stroke-linecap: round; stroke: #000000" d="M 17.0576 83.9858 C 16.904,84.0149 16.794,84.2742 16.8666,84.658 C 16.7566,84.9173 16.6465,85.1766 16.6756,85.3302 C 16.6381,85.9733 16.8454,86.6497 17.3308,87.1145 C 17.8784,87.4881 18.5506,87.6791 19.3473,87.6875 L 23.4552,87.5473 L 23.3633,90.4269 L 14.4754,90.5164 L 14.5672,87.6368 L 16.1606,87.6537 C 15.5217,87.2179 15.0363,86.7531 14.9492,86.2925 C 14.7232,85.9377 14.4681,85.4293 14.352,84.8152 C 14.323,84.6616 14.294,84.5081 14.294,84.5081 C 14.265,84.3546 14.3895,84.172 14.543,84.143 L 17.0576,83.9858"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.8; stroke-linecap: round; stroke: #000000" d="M 17.902 73.7288 L 23.2962,73.6635 L 23.2043,76.5431 L 22.5902,76.6592 L 19.0964,76.6834 C 18.2997,76.6749 17.7333,76.6229 17.503,76.6665 C 17.3205,76.5419 17.0902,76.5855 16.8889,76.7825 C 16.8889,76.7825 16.9179,76.936 16.9469,77.0896 C 16.8369,77.3489 16.7269,77.6082 16.7559,77.7617 C 16.6894,78.2513 16.8678,78.7742 17.3531,79.239 C 17.9008,79.6126 18.5439,79.6501 19.3116,79.505 L 23.4775,79.6718 L 23.3856,82.5514 L 14.4977,82.6409 L 14.5896,79.7613 L 15.8758,79.8362 C 15.3905,79.3714 15.0586,78.8776 14.9716,78.417 C 14.7165,77.9086 14.4614,77.4003 14.3744,76.9397 C 14.4161,75.8982 14.8229,75.1057 15.5035,74.5001 C 16.0451,74.0002 16.875,73.7638 17.902,73.7288 L 17.902,73.7288"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.8; stroke-linecap: round; stroke: #000000" d="M 18.8793 62.4925 L 19.8585,62.6255 L 19.7909,68.9989 C 20.405,68.8828 20.9279,68.7045 21.2682,68.4017 C 21.4259,67.9743 21.5402,67.3167 21.5341,66.4432 C 21.4616,66.0594 21.36,65.522 21.244,64.9079 C 21.0989,64.1402 20.8626,63.3103 20.4727,62.5094 L 22.7382,62.7173 C 22.8543,63.3315 22.9993,64.0991 23.1444,64.8668 C 23.414,65.4519 23.5446,66.1428 23.4926,66.7092 C 23.5814,68.4416 23.1994,69.7859 22.3465,70.7421 C 21.4646,71.5449 20.3422,71.916 19.0269,71.6875 C 17.616,71.7951 16.4398,71.4609 15.6661,70.7325 C 14.9401,69.8361 14.4777,68.6513 14.3556,67.1638 C 14.3247,65.7385 14.7358,64.5477 15.6177,63.7449 C 16.5908,63.0045 17.6988,62.5566 18.8793,62.4925 L 18.8793,62.4925"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.8; stroke-linecap: round; stroke: #000000" d="M 17.8082 65.2392 C 17.2419,65.1872 16.7958,65.351 16.638,65.7783 C 16.528,66.0376 16.3847,66.5418 16.256,67.1227 C 16.343,67.5833 16.5691,67.9381 16.7952,68.2929 C 16.8387,68.5232 17.2806,68.7577 17.8905,69.04 L 17.8082,65.2392"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.8; stroke-linecap: round; stroke: #000000" d="M 12.2726 56.9829 L 14.5381,57.1908 L 14.3229,54.3692 L 16.5304,54.27 L 16.7456,57.0917 L 20.5464,57.0094 C 20.8202,57.1962 21.0505,57.1527 21.1605,56.8934 C 21.3618,56.6963 21.3951,56.4515 21.3515,56.2212 L 21.3685,54.6279 L 23.2689,54.5868 L 23.368,56.7942 C 23.3698,58.066 23.0688,58.9975 22.604,59.4829 C 22.1101,59.8147 21.3425,59.9598 20.4545,59.8891 L 16.6537,59.9713 L 16.5787,61.2576 L 14.3713,61.3567 L 14.4462,60.0704 L 12.1807,59.8625 L 12.2726,56.9829"/>
+  </g>
+</svg>
