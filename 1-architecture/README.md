@@ -1,13 +1,13 @@
-# <a id="1-SPEC>Devcc Architecture</a>
+# Devcc Architecture
 
-## <a id="CONSTRAINTS-AND-SCOPE">Constraints and Scope</a>
+## Constraints and Scope
 
 * Constraints
   * Max 8 hours
 
 * Objective
   * To identify non-functional requirements in product backlog
-  * Address the [documented concerns](README.md#CONCERNS) 
+  * Address the [documented concerns](#CONCERNS) 
   * Give on overview 
   
 * Scope  
@@ -25,63 +25,76 @@
 	* [ArgoUML](http://argouml.tigris.org/)
 
 
-## <a id="CONCERNS">Concerns</a>
+## Concerns
 
 ### CONCERN-1
 
 An a professional developer uses the right tools for the right
-  job. Installing and managing a large tool set may distract the
-  attention from "programming" i.e. from the "real work". How can we
-  avoid this in this exercise?
+job. Installing and managing a large tool set may distract the
+attention from "programming" i.e. from the "real work". How can we
+avoid this in this exercise?
   
-* <a id="CONCERN-2">CONCERN-2</a>I would like to get a "big picture"
-  of the "developer work", and some pointers, how dig deeper on some
-  subject. By the way, what these "subjects", any how (I am not sure
-  that I know the before hand)
+### CONCERN-2
+
+I would like to get a "big picture" of the "developer work", and some
+ pointers, how dig deeper on some subject. By the way, what these
+ "subjects", any how (I am not sure that I know the before hand)
   
-* <a id="CONCERN-3">CONCERN-3</a>Do we have to install, understand and
-  use all development pipeline tools? Are all the tools equally
-  important? What happens if we encounter problem with some tool, what
-  do miss if I do not skip installing some tool?
+### CONCERN-3
+
+Do we have to install, understand and use all development pipeline
+tools? Are all the tools equally important? What happens if we
+encounter problem with some tool, what do miss if I do not skip
+installing some tool?
   
-* <a id="CONCERN-4">CONCERN-4</a>We are talking of a "development
-  pipeline". Does this mean that the development work goes through
-  some kind of steps. What are these steps, and how do they add value
-  to the product being developed?
-  
+### CONCERN-4
+
+We are talking of a "development pipeline". Does this mean that the
+development work goes through some kind of steps. What are these
+steps, and how do they add value to the product being developed?
 
 ## Reference Architecture
 
-[Continuous Delivery](http://en.wikipedia.org/wiki/Continuous_delivery)
-[http://www.thoughtworks.com ](http://www.thoughtworks.com/continuous-delivery)
-[Book](http://www.amazon.com/gp/product/0321601912)
+As reference architecture we are using
+[Continuous Delivery](http://www.slideshare.net/jezhumble/continuous-delivery-5359386)
+presented in [book](http://www.amazon.com/gp/product/0321601912) by
+[http://www.thoughtworks.com ](http://www.thoughtworks.com/continuous-delivery).
 
+![Continuous Delivery Process](http://www.getchef.com/images/chart-continuous-delivery.png)
 
-![Continuous Delivery Process](http://upload.wikimedia.org/wikipedia/en/7/74/Continuous_Delivery_process_diagram.png)
+Continuous Delivery can be characterized
 
- a set of validations through which a piece of software must pass on its way to release.
- 
- * aiming at
-   * short cycle time trough development pipe lin
- 
+* on development work bench run continuously unit tests, which provide
+  immediate feedback to the developers
+* when the delivery checking in their work
+*  [Continuous Integration](http://en.wikipedia.org/wiki/Continuous_integration) triggers automatically
+   * build 
+   * unit tests (=same tests as on the developer workstation)
+   * acceptance tests
+   * code quality tests 
+   * etc
+* Also performance and security tests are automated (as far as possible)   
+* Automated tests are supported as far possible, how ever some step
+  require human work: user acceptance test, presentation to
+  stakeholders
+* Release should also be managed e.g. "canary releasing" (=small
+  deliveries, where problems do not harm the total system),
+  "green/blue" (=two parallel systems, which can be easily switched)
 
- * continuous unit testing when developing
- * Compiled artifact repository, where compiled code, reports and metadata are managed
- * Commit , integration to main trunk (as opposed to creating branches, which are merged)
- * tested using several techniques, 
-   * developer unit tests
-   * quality control tools
-   * automated acceptance testing, supported by [Continuous Integration](http://en.wikipedia.org/wiki/Continuous_integration)
-   
-   * potentially releasable
-* smoke tests 
-* User acceptace test
-* Capasity testing
-
-* Increasing confidence as build proceeds through the development pipeline steps
-* Environments keep environments as production like
-* Fast feedback if errors identified, stop the pipeline
- 
+Continuous delivery is aiming at
+ * short cycle time trough development pipe line, using automated
+   tests, continuous integration, small build, smoke tests
+ * each commit is potentially deliverable product
+ * where the confidence on quality is increased as the build proceeds
+   through the development pipeline steps
+ * all environments resemble production as much as possible, further
+   down to the pipe line environments are even more production like.
+ * Commits  to main trunk (as opposed to creating branches, which are merged)
+ * Once an artifact gets build/generated (e.g. compiled code,
+   binaries, reports, metadata) it is stored in an artifact repository
+   (as opposed to keeping the in version control system), allowing
+   steps in pipeline to have 100% certainty that they are using
+   unmodified artifact
 
 ## Developer Roles
 
@@ -213,17 +226,17 @@ The following picture shows **Developer Roles** identified in `DevCC` c
 
 ### Concerns addressed
 
-[CONCERN-1](#CONCERN-1), [CONCERN-3](README.md#CONCERN-3):
+[CONCERN-1](#CONCERN-1), [CONCERN-3](#CONCERN-3):
 the tool set has been split up to manageable chunks, *Development
 Infrastructure Developer* role is critical in bootstrapping the tool
 set, careful risk management needed for activities performed by this
 role
 
-[CONCERN-2](README.md#CONCERN-2): roles represent typical development
+[CONCERN-2](#CONCERN-2): roles represent typical development
 tasks, technology list acts as a pointer how find out more of the work
 these roles do
 
-[CONCERN-4](README.md#CONCERN-4): the roles are active trough various
+[CONCERN-4](#CONCERN-4): the roles are active trough various
 development phases
 
 
@@ -247,13 +260,13 @@ Presents the [Methodologies, Technologies, Tools](#Methodologies, Technologies, 
 
 ### Concerns addressed
 
-[CONCERN-2](README.md#CONCERN-2): System Architecture shows the big
+[CONCERN-2](#CONCERN-2): System Architecture shows the big
 picture
 
-[CONCERN-3](README.md#CONCERN-3): System Architecture shows maps the
+[CONCERN-3](#CONCERN-3): System Architecture shows maps the
 tool to architectural context.
 
-[CONCERN-4](README.md#CONCERN-4): System Architecture shows system
+[CONCERN-4](#CONCERN-4): System Architecture shows system
 context, where "Development Pipeline" is executed.
 
 
@@ -270,5 +283,5 @@ context, where "Development Pipeline" is executed.
 
 
 
-[up](../README.md) [resume](../README.md#1-DEFINE-ARCHITECTURE) [top](README.md)
+[up](../README.md) [resume](../#1-DEFINE-ARCHITECTURE) [top](README.md)
 
