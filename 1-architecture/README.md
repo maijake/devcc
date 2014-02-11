@@ -47,13 +47,133 @@
   steps, and how do they add value to the product being developed?
   
 
-## System Architecture
+## Reference Architecture
 
-![Systems Architecture](SystemArchitecture.svg)
+[Continuous Delivery](http://en.wikipedia.org/wiki/Continuous_delivery)
+[http://www.thoughtworks.com ](http://www.thoughtworks.com/continuous-delivery)
+[Book](http://www.amazon.com/gp/product/0321601912)
+
+
+![Continuous Delivery Process](http://upload.wikimedia.org/wikipedia/en/7/74/Continuous_Delivery_process_diagram.png)
+
+ a set of validations through which a piece of software must pass on its way to release.
+ 
+ * aiming at
+   * short cycle time trough development pipe lin
+ 
+
+ * continuous unit testing when developing
+ * Compiled artifact repository, where compiled code, reports and metadata are managed
+ * Commit , integration to main trunk (as opposed to creating branches, which are merged)
+ * tested using several techniques, 
+   * developer unit tests
+   * quality control tools
+   * automated acceptance testing, supported by [Continuous Integration](http://en.wikipedia.org/wiki/Continuous_integration)
+   
+   * potentially releasable
+* smoke tests 
+* User acceptace test
+* Capasity testing
+
+* Increasing confidence as build proceeds through the development pipeline steps
+* Environments keep environments as production like
+* Fast feedback if errors identified, stop the pipeline
+ 
+
+## Developer Roles
+
+The following picture shows **Developer Roles** identified in `DevCC` c
+
+![Developer Roles](Roles.png)
+
+* **Developer** : The role, which is being decomposed
+
+  * **Analyst** : Role which is further being decomposed to  *Requirements Analyst*, and *Test Analyst*
+
+    * **Requirements Analyst** : Developer analysing requirements, understand the business needs
+  
+    * **Test Analyst** : 
+	
+  * **Architect** : support as mediator between analysts and implementation developers
+  
+  * **User Interface Developer**: *implementation developer* responsible for user interface functionality
+
+    * **User Interface Layout Developer**: *implementation developer*
+        responsible for visual aspect of user interface
+
+  * **Backed Developer**: *implementation developer* responsible for integrating back end systems and datastores
+  
+  * **Infrastructure Developer**: Further decomposed to *Development
+      Infrastructure Developer* and *Runtime Infrastructure Management
+      Developer*
+
+  * **Development Infrastructure Developer**: deliver environment & configuration for *development*
+
+  * **Runtime Infrastructure Management Developer**: deliver environment & configuration for *runtime*
+
+
+### Methodologies, Technologies, Tools
+
+* **Requirements Analyst** 
+  * **Methodologies**
+  * **Technologies**
+  * **Tools**
+  
+* **Test Analyst** 
+  * **Methodologies**
+  * **Technologies**
+  * **Tools**
+
+* **Architect** : support as mediator between analysts and implementation developers
+  * **Methodologies**
+  * **Technologies**
+  * **Tools**
+
+* **User Interface Developer**
+  * **Methodologies**
+  * **Technologies**
+  * **Tools**
+
+* **User Interface Layout Developer**
+  * **Methodologies**
+  * **Technologies**
+  * **Tools**
+
+* **Backed Developer**
+  * **Methodologies**
+  * **Technologies**
+  * **Tools**
+  
+* **Development Infrastructure Developer**
+  * **Methodologies**
+  * **Technologies**
+  * **Tools**
+
+* **Runtime Infrastructure Management Developer**
+  * **Methodologies**
+  * **Technologies**
+  * **Tools**
+
+
+Requirements Analyst | Test Analyst | Architect | User Interface Developer | User Interface Layout Developer | 
+
 
 ### Architectural Decisions
 
 ### Concerns addressed
+
+
+## System Architecture
+
+![Systems Architecture](SystemArchitecture.jpg)
+
+
+### Architectural Decisions
+
+### Concerns addressed
+
+
+
 
 ## Logical Architecture
 
