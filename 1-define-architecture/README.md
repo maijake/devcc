@@ -47,7 +47,7 @@ Other information:
 ## Architecture Design Process in Project Context
 
 Before starting architecture design, the scope and constraints of the
-design have to identified and ratified by the work initiator.
+design need to be identified and ratified by the work initiator.
 
 The object of Architecture Design is to address the concerns of
 stakeholders. The first step is to identify the stakeholders, and to
@@ -79,8 +79,7 @@ systems, several parallel projects etc.
 Our exercise, is not too complicated, and the following ment to point
 out a couple of better known corporate architecture frameworks:
 
-*
-  [The Open Group Architecture Framework](http://en.wikipedia.org/wiki/The_Open_Group_Architecture_Framework)
+* [The Open Group Architecture Framework](http://en.wikipedia.org/wiki/The_Open_Group_Architecture_Framework)
   
 * [Zachman Framework](http://en.wikipedia.org/wiki/Zachman_Framework)
 
