@@ -27,7 +27,9 @@
 
 ## <a id="CONCERNS">Concerns</a>
 
-* <a id="CONCERN-1">CONCERN-1</a>An a professional developer uses the right tools for the right
+### CONCERN-1
+
+An a professional developer uses the right tools for the right
   job. Installing and managing a large tool set may distract the
   attention from "programming" i.e. from the "real work". How can we
   avoid this in this exercise?
@@ -117,7 +119,7 @@ The following picture shows **Developer Roles** identified in `DevCC` c
 
   * **Runtime Infrastructure Management Developer**: deliver environment & configuration for *runtime*
 
-### <a id="METHODOLOGIES-TECHNOLOGIES-TOOLS">Methodologies, Technologies, Tools</a>
+### Methodologies, Technologies, Tools
 
 * **Requirements Analyst** 
   * **Methodologies**
@@ -211,7 +213,7 @@ The following picture shows **Developer Roles** identified in `DevCC` c
 
 ### Concerns addressed
 
-[CONCERN-1](README.md#CONCERN-1), [CONCERN-3](README.md#CONCERN-3):
+[CONCERN-1](#CONCERN-1), [CONCERN-3](README.md#CONCERN-3):
 the tool set has been split up to manageable chunks, *Development
 Infrastructure Developer* role is critical in bootstrapping the tool
 set, careful risk management needed for activities performed by this
@@ -236,7 +238,7 @@ Presented in four quadrants
 * Web Development Environment 
 * Web Runtime Environment 
 
-Presents the [Methodologies, Technologies, Tools](README.md#METHODOLOGIES-TECHNOLOGIES-TOOLS)
+Presents the [Methodologies, Technologies, Tools](#Methodologies, Technologies, Tools)
 
 ### Architectural Decisions
 
