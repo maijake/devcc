@@ -2,28 +2,28 @@
 
 ## Constraints and Scope
 
-* Constraints
+* First version of this document: max 8h
   * Max 8 hours
 
 * Objective
-  * To identify non-functional requirements in product backlog
+  * To identify initial architecture requirements in product backlog
   * Address the [documented concerns](#CONCERNS) 
-  * Give on overview 
+  * Give on overview of our exercise
   
 * Scope  
-  * Define a feasible development pipeline, which
+  * Define a *Minimum Feasible Delivery Pipeline*, which
     * uses state of the art tools
 	* is "efficient"
 	* can scale up
+	* can be extended 
 
 * Working methods
   * --> use bullet lists (to be transferred into product backlog)
   * --> if required Architecture may documented in more polished manner later
   * Tools
-    * markdown
+    * GIT-markdown
 	* [Dia](http://en.wikipedia.org/wiki/Dia_%28software%29)
 	* [ArgoUML](http://argouml.tigris.org/)
-
 
 ## Concerns
 
@@ -85,26 +85,6 @@ presented in [book](http://www.amazon.com/gp/product/0321601912) by
    to support
    [Continuous Integration](http://en.wikipedia.org/wiki/Continuous_integration)
 
-## Architectural Requirements
-
-Continuous Delivery can be characterized
-
-* on development work bench run continuously unit tests, which provide
-  immediate
-* when the delivery checking in their work
-*  [Continuous Integration](http://en.wikipedia.org/wiki/Continuous_integration) triggers automatically
-   * build 
-   * unit tests (=same tests as on the developer workstation)
-   * acceptance tests
-   * code quality tests 
-   * etc
-* Also performance and security tests are automated (as far as possible)   
-* Automated tests are supported as far possible, how ever some step
-  require human work: user acceptance test, presentation to
-  stakeholders
-* Release should also be managed e.g. "canary releasing" (=small
-  deliveries, where problems do not harm the total system),
-  "green/blue" (=two parallel systems, which can be easily switched)
 
 ## Developer Roles
 
@@ -132,15 +112,18 @@ The following picture shows **Developer Roles** identified in `DevCC` c
       integrating back end systems and datastores, implement also unit
       tests for the code
   
-* **Test Developer**: implement test, which are not unit tests, e.g. acceptance test implementation
+* **Test Developer**: implement test, which are not unit tests,
+    e.g. acceptance test implementation
   
 * **Infrastructure Developer**: Further decomposed to *Development
       Infrastructure Developer* and *Runtime Infrastructure Management
       Developer*
 
-  * **Development Infrastructure Developer**: deliver environment & configuration for *development*
+  * **Development Infrastructure Developer**: deliver environment &
+      configuration for *development*
 
-  * **Runtime Infrastructure Management Developer**: deliver environment & configuration for *runtime*
+  * **Runtime Infrastructure Management Developer**: deliver
+      environment & configuration for *runtime*
 
 ### Methodologies, Technologies, Tools
 
@@ -268,7 +251,7 @@ development phases
 
 ## System Architecture
 
-![Systems Architecture](SystemArchitecture.jpg)
+![Systems Architecture](SystemArchitecture.jpg)[svc](SystemArchitecture.svg)
 
 Presented in four quadrants
 
@@ -304,17 +287,24 @@ The picture above shows, how the Systems Architecture is logically
 divided into two categories `Continuous Delivery` and
 `Infrastructure`. 
 
-`Continuous Delivery` starts with collecting `Requirements` and
-defining `Acceptance Criteria`. System implementation proceeds trough
-three environments `Development Environment`, `Quality Environment`
-and `Runtime Environment`.
+Before implementation start, the logical model identifies tasks:
 
-`Infrastructure` starts with `Architecture Design`, and followed by
-the same environments. 
+* for collecting `Requirements`
+* defining `Acceptance Criteria` for the requirements
+* designing `Architecture Design`
 
+The *Development Pipeline* flows trough three environments
+`Development Environment`, `Quality Environment` and `Runtime
+Environment`.
+
+Each Environment is composed of smaller units (`Sub-Environments`)
+corresponding the developer roles presented above. The
+*Sub-Environments* allow developer to accomplish a task within a
+*Delivery Pipeline*.
 
 ### Architectural Decisions
 
+Not supporting 
 
 ### Concerns addressed
 
@@ -331,7 +321,25 @@ technologies and tools needed.
 [CONCERN-4](#CONCERN-4): "Development work" flows trough the
 Environments
 
+## Architectural Requirements
 
+Initial list on high level.
+
+### ARCH-1: Fast feedback
+
+### ARCH-1: Unit tests are running continuously in Dev. Env
+
+### ARCH-2: Acceptance test can be run without CI-environment
+
+In other words: Continuous Integration Environment optional.
+
+### ARCH-3: Support TDD principles
+
+### ARCH-4: Automate infrastructure builds
+
+### ARCH-4: Amazon and Local RT-env. similar
+
+### ARCH-5: DOD: Bootstrap instructions for each environment 
 
 
 
