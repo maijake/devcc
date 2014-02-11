@@ -1,6 +1,6 @@
 # <a id="1-SPEC>Devcc Architecture</a>
 
-## <a id="CONSTRAINTS-AND-SCOPE">Constraints and Scope/a>
+## <a id="CONSTRAINTS-AND-SCOPE">Constraints and Scope</a>
 
 * Constraints
   * Max 8 hours
@@ -27,24 +27,25 @@
 
 ## <a id="CONCERNS">Concerns</a>
 
-* An a professional developer uses the right tools for the right
+* <a id="CONCERN-1">CONCERN-1</a>An a professional developer uses the right tools for the right
   job. Installing and managing a large tool set may distract the
   attention from "programming" i.e. from the "real work". How can we
   avoid this in this exercise?
   
-* I would like to get a "big picture" of the "developer work", and
-  some pointers, how dig deeper on some subject. By the way, what
-  these "subjects", any how (I am not sure that I know the before
-  hand)
+* <a id="CONCERN-2">CONCERN-2</a>I would like to get a "big picture"
+  of the "developer work", and some pointers, how dig deeper on some
+  subject. By the way, what these "subjects", any how (I am not sure
+  that I know the before hand)
   
-* Do we have to install, understand and use all development pipeline
-  tools? Are all the tools equally important? What happens if we
-  encounter problem with some tool, what do miss if I do not skip
-  installing some tool?
+* <a id="CONCERN-3">CONCERN-3</a>Do we have to install, understand and
+  use all development pipeline tools? Are all the tools equally
+  important? What happens if we encounter problem with some tool, what
+  do miss if I do not skip installing some tool?
   
-* We are talking of a "development pipeline". Does this mean that the
-  development work goes through some kind of steps. What are these
-  steps, and how do they add value to the product being developed?
+* <a id="CONCERN-4">CONCERN-4</a>We are talking of a "development
+  pipeline". Does this mean that the development work goes through
+  some kind of steps. What are these steps, and how do they add value
+  to the product being developed?
   
 
 ## Reference Architecture
@@ -86,29 +87,29 @@ The following picture shows **Developer Roles** identified in `DevCC` c
 
 ![Developer Roles](Roles.png)
 
-* **Developer** : The role, which is being decomposed
+**Developer**  is common name for a number more specific roles
 
-  * **Analyst** : Role which is further being decomposed to  *Requirements Analyst*, and *Test Analyst*
+* **Analyst** : Role which is further being decomposed to  *Requirements Analyst*, and *Test Analyst*
 
-    * **Requirements Analyst** : Developer analysing requirements, understand the business needs
+  * **Requirements Analyst** : Developer analysing requirements, understand the business needs
   
-    * **Test Analyst** : 
+  * **Test Analyst** : Define acceptance criteria for requirements
 	
-  * **Architect** : support as mediator between analysts and implementation developers
+* **Architect** : support as mediator between analysts and implementation developers
   
-  * **User Interface Developer**: *implementation developer* responsible for user interface functionality
+* **User Interface Developer**: *implementation developer* responsible for user interface functionality
 
-    * **User Interface Layout Developer**: *implementation developer*
-        responsible for visual aspect of user interface, implement also unit
-      tests for the code
+* **User Interface Layout Developer**: *implementation developer*
+        responsible for visual aspect of user interface, implement
+        also unit tests for the code
 
-  * **Backed Developer**: *implementation developer* responsible for
+* **Backed Developer**: *implementation developer* responsible for
       integrating back end systems and datastores, implement also unit
       tests for the code
   
-  * **Test Developer**: implement test, which are not unit tests, e.g. acceptance test implementation
+* **Test Developer**: implement test, which are not unit tests, e.g. acceptance test implementation
   
-  * **Infrastructure Developer**: Further decomposed to *Development
+* **Infrastructure Developer**: Further decomposed to *Development
       Infrastructure Developer* and *Runtime Infrastructure Management
       Developer*
 
@@ -116,8 +117,7 @@ The following picture shows **Developer Roles** identified in `DevCC` c
 
   * **Runtime Infrastructure Management Developer**: deliver environment & configuration for *runtime*
 
-
-### Methodologies, Technologies, Tools
+### <a id="METHODOLOGIES-TECHNOLOGIES-TOOLS">Methodologies, Technologies, Tools</a>
 
 * **Requirements Analyst** 
   * **Methodologies**
@@ -207,20 +207,52 @@ The following picture shows **Developer Roles** identified in `DevCC` c
 ### Architectural Decisions
 
 * Security testing, performance testing not covered here
+* User Acceptance testing not covered here
 
 ### Concerns addressed
+
+[CONCERN-1](README.md#CONCERN-1), [CONCERN-3](README.md#CONCERN-3):
+the tool set has been split up to manageable chunks, *Development
+Infrastructure Developer* role is critical in bootstrapping the tool
+set, careful risk management needed for activities performed by this
+role
+
+[CONCERN-2](README.md#CONCERN-2): roles represent typical development
+tasks, technology list acts as a pointer how find out more of the work
+these roles do
+
+[CONCERN-4](README.md#CONCERN-4): the roles are active trough various
+development phases
 
 
 ## System Architecture
 
 ![Systems Architecture](SystemArchitecture.jpg)
 
+Presented in four quadrants
+
+* Local Development Environment 
+* Local Runtime Environment 
+* Web Development Environment 
+* Web Runtime Environment 
+
+Presents the [Methodologies, Technologies, Tools](README.md#METHODOLOGIES-TECHNOLOGIES-TOOLS)
 
 ### Architectural Decisions
 
+* Security testing, performance testing not covered here
+* User Acceptance testing not covered here
+
 ### Concerns addressed
 
+[CONCERN-2](README.md#CONCERN-2): System Architecture shows the big
+picture
 
+[CONCERN-3](README.md#CONCERN-3): System Architecture shows maps the
+tool to architectural context.
+
+[CONCERN-4](README.md#CONCERN-4): System Architecture shows system
+context, where "Development Pipeline" is executed.
 
 
 ## Logical Architecture
