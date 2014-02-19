@@ -30,7 +30,7 @@
 
 ### CONCERN-1
 
-An a professional developer uses the right tools for the right
+The professional developer uses the right tools for the right
 job. Installing and managing a large tool set may distract the
 attention from "programming" i.e. from the "real work". How can we
 avoid this in this exercise?
@@ -38,14 +38,15 @@ avoid this in this exercise?
 ### CONCERN-2
 
 I would like to get a "big picture" of the "developer work", and some
- pointers, how dig deeper on some subject. By the way, what these
- "subjects", any how (I am not sure that I know the before hand)
+ pointers, how dig deeper on some subject. By the way, what are these
+ "subjects", any way (I am not sure that I know the before hand)
   
 ### CONCERN-3
 
-Do we have to install, understand and use all development tools? Are
-all the tools equally important? What happens if we encounter problem
-with some tool, what do miss if I do not skip installing some tool?
+Do we have to install, understand, and use so many development tools?
+Are all the tools equally important? What happens if we encounter
+problems with some tool? What do miss, if I do skip installing some of
+the tools?
   
 ### CONCERN-4
 
@@ -57,30 +58,32 @@ pipe, and how does it add value to the product being developed?
 
 We use
 [Continuous Delivery](http://www.slideshare.net/jezhumble/continuous-delivery-5359386)
-as reference architecture. *Continuous Delivery* is described in more
-details in a [book](http://www.amazon.com/gp/product/0321601912) by
+as a reference architecture. *Continuous Delivery* is described in
+more details in a [book](http://www.amazon.com/gp/product/0321601912)
+by
 [http://www.thoughtworks.com ](http://www.thoughtworks.com/continuous-delivery).
 
 ![Continuous Delivery Process](http://www.getchef.com/images/chart-continuous-delivery.png)
 
 *Continuous Delivery* can be characterized 
 
- * It uses automated tests, continuous integration, small build, smoke
-   tests to get fast feedback on failures, and short cycle times
-   trough *Deployment Pipeline*
- * In addition to automated step, *Continuous Delivery* uses manual
+ * It uses automated tests, continuous integration, small builds,
+   smoke tests, etc. 
+   * to get fast feedback on failures, 
+   * and achieve short cycle times trough *Deployment Pipeline*
+ * In addition to automated steps, *Continuous Delivery* uses manual
    steps, when automation is not possible (e.g. *User Acceptance
    Testing*)
  * Each commit to version control system is a *Potentially Deliverable
    Product*
+ * Each step executed in *Deployment Pipeline* increases the quality
+   of the product, and the confidence that the product version could
+   be deployed in real production.
  * Once an artifact gets build/generated (e.g. compiled code,
-   binaries, reports, metadata) it is stored in an artifact repository
-   (as opposed to keeping the in version control system), allowing
-   steps in pipeline to have 100% certainty that they are using
-   unmodified artifact
- * Each step executed in the *Deployment Pipeline* increases the
-   quality of the product, and the confidence that the product version
-   could be deployed in real production.
+   binaries, reports, metadata), it is stored in an artifact
+   repository (as opposed to keeping the in version control system),
+   allowing subsequent steps in pipeline to have 100% certainty that
+   they are using unmodified artifact
  * All environments resemble production as much as possible, further
    down to the pipeline environments are even more production like.
  * Recommends commits to
@@ -90,7 +93,6 @@ details in a [book](http://www.amazon.com/gp/product/0321601912) by
    enables the effective use of
    [Continuous Integration](http://en.wikipedia.org/wiki/Continuous_integration)
    techniques.
-
 
 ## Developer Roles
 

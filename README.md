@@ -10,13 +10,13 @@ The contents aims at creating understanding
 ## <a id="0-SETUP-DEVCC">Setup devcc environment</a>
 
 Like developers normally do (or as they normally
-[SHOULD do](0-why-vcs/README.md)), we are using version control tool
+[SHOULD do](notes/0-why-vcs/README.md)), we are using version control tool
 to manage content created. Our choice is a tool called `git`, and we
 store our content [in a repository](https://github.com/sorsis3/devcc)
 on [github](http://github.com) service.
 
 
-* You need to [install git](0-init-git/README.md) to download
+* You need to [install git](guides/0-init-git/README.md) to download
 [devcc](https://github.com/sorsis3/devcc) to Your computer. 
 
 * Our fictitious project uses `github`, and and a
@@ -37,7 +37,7 @@ You are using.
 
 ## <a id="0-MANAGE-DEVELOPMENT">Manage development</a>
 
-We plan to use [Scrum](0-agile/README.md) to manage development in
+We plan to use [Scrum](notes/0-agile/README.md) to manage development in
 devcc.
 
 ## <a id="1-DEFINE-REQUIREMENTS">Define requirements</a>
@@ -58,7 +58,7 @@ enough so that we can bootstrap
 to monitor progress, we must have an understanding of the whole scope
 of the system already at the start.
 
-There [many techniques](1-define-requirements/README.md) for defining
+There [many techniques](notes/1-define-requirements/README.md) for defining
 requirements of a system.  In this exercise, we give
 [DevCC functional requirements](1-spec/README.md) as screen mockups
 using
@@ -85,7 +85,7 @@ the system, such as:
 * etc.
 
 The common engineering practice is create a
-[Architecture Description](1-define-architecture/README.md) to model
+[Architecture Description](notes/1-define-architecture/README.md) to model
 the system and analyze it to give answers to these kind of questions.
 
 [In our case](1-architecture#README.md) we have
