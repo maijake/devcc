@@ -100,6 +100,39 @@ Push the changes to your remote github account
 And browse to *&lt;your github account&gt;* to see the changes published
 
 	https://github.com/<your github account user name>
+	
+## Update master branch in github
+
+Make sure you are in master
+
+	git checkout master 
+
+Check if you already have `author` remote pointing to the original repo
+
+	git remote -v
+	
+add if `author` remote is not defined (**needs to be done only once**)
+
+	git remote add author <original repo-forked>
+
+fetch author state
+
+	git fetch author
+	
+make sure that you are on master branch	
+
+	git status
+	
+merge `author` to you `master` branch
+
+	git merge author/master
+	
+push changes in my `master` branch to github
+
+	git push origin master
+	
+	
+	
 
 [top](../README.md)  [resume](../README.md#0-SETUP-DEVCC) 
 
