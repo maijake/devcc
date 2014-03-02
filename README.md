@@ -42,9 +42,10 @@ the system, such as:
 * How secure is the system?
 * etc.
 
-The common engineering practice is create a
-[Architecture Description](notes/1-define-architecture/README.md) to model
-the system and analyze it to give answers to these kind of questions.
+The common engineering practice is to create an
+[Architecture Description](notes/1-define-architecture/README.md) to
+model the system and analyze it to give answers to these kind of
+questions.
 
 [In our case](1-architecture#README.md) we have
 
@@ -53,13 +54,14 @@ the system and analyze it to give answers to these kind of questions.
 
 ## <a id="1-DEFINE-REQUIREMENTS">Define requirements</a>
 
-There [many techniques](notes/1-define-requirements/README.md) for
-defining requirements of a system.  In this exercise, we give
+[Requirement analysis](notes/1-define-requirements/README.md)
+determines the need that a system should meet.
+
+In this exercise, we give
 [DevCC functional requirements](1-spec/README.md) as screen mockups
 using
 [Twitter Bootstrap 3.0 Ui Mockup Templatetes](http://keynotopia.com/bootstrap/)
 by [Keynotopia](http://keynotopia.com/).
-
 
 Initially, we need to have requirements of the target system detailed
 enough so that we can bootstrap
