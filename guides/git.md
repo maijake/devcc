@@ -157,34 +157,40 @@ created from latest mainline head.
 
 ### Rebase based workflow in git
 
-Main main branch `author` in address
-`https://github.com/sorsis3/git-test`, and local repo created with the
-command
+The main repo is in github ñ
+`https://github.com/sorsis3/git-test`. Local local repo is created
+with the command
 
 	git clone https://github.com/sorsis3/git-test
 
-A branch in fork `https://github.com/sorsis4/git-test`, and local repo
-created with the command
+A github fork (=branch) is in address
+`https://github.com/sorsis4/git-test`. The local repo is created with
+the command
 
 	git clone https://github.com/sorsis4/git-test
 	
-
-In `sorsis4/git-test` add remote `author` with the command
+In `sorsis4/git-test` associate alias name (=remote) `author` with for
+the mainline repo with the command
 
 	git remote add author https://github.com/sorsis3/git-test
 	
-and fetch the content of the mainline from the remote `author`
+Fetch the content of the mainline trunk from the remote `author`
 
 	git fetch author	
 
-Now it is possible to create a tracking branch `author-track` with the command
+Now it is possible to create a **tracking branch** `author-track`,
+which follows the master branch in the mainline repo, with the command
 	
 	git checkout -b author-track --track author/master
 
 
-In mainline `sorsis3` do some changes, commit, and push the
+In mainline repo `sorsis3` do some changes, commit, and push changes the
 
+	cd sorsis3/git-test
 	echo `date` >> main-sorsis3-changes.txt	
+	git add main-sorsis3-changes.txt 
+	git commit -m "Just a one line change in main-sorsis3-changes.txt"
+	git push
 
 In bracnch `sorsis4` show existing branches are shows with the command
 
@@ -195,7 +201,7 @@ and in this case we have
 	author-track
 	master
 
-Switch to the tracking  branch on `sorsis3` the mainline
+Switch to the *tracking branch* of the mainline  in `sorsis3` repo
 
 	git checkout author-track
 	
