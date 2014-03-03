@@ -7,7 +7,21 @@ The contents aims at creating understanding
 * WHY developers do some things they do
 * HOW these things may done using some tools in a fictitious project
 
-## Assumptions
+## <a id="NOTES">Notes</a>
+
+* on [Using Scrum](notes/0-agile/README.md) to manage development
+* on [defining architectures](notes/1-define-architecture/README.md) to
+* on [defining requirements](1-define-requirements/README.md)
+
+
+## <a id="GUIDES">Guides</a>
+
+* [install git & create github account](guides/git.md)
+* [install nvm, npm, and bower](guides/devtools.md)
+
+## <a id="RESULTS">Results</a>
+
+### Assumptions
 
 In this exercise, we assume that the necessary preliminary work,
 e.g. documenting our goal as a
@@ -19,87 +33,10 @@ funding. We must constantly track the amount of work done, and the
 amount of work left to create a deliverable product satisfying our
 goals.
 
-## <a id="0-MANAGE-DEVELOPMENT">Manage development</a>
+### Project resulsts
 
-We are using [Scrum](notes/0-agile/README.md) to manage development
-the development process.
-
-## <a id="DEFINE-ARCHITECTURE">Define Architecture</a>
-
-Having `functional`requirements is not enough to start systems
-development. At the start (and trough out the whole system life cycle)
-we need to have understanding of several `non-functional` aspects of
-the system, such as:
-
-* How do we split the (possibly large) overall system into more
-  manageable pieces?
-* How do we integrate the these pieces together?
-* What is the platform on which the system operates?
-* How do we integrate the system with its surroundings?
-* What development tools are used?
-* What is the performance of the system?  How can we increase (scale
-  up) its performance?
-* How secure is the system?
-* etc.
-
-The common engineering practice is to create an
-[Architecture Description](notes/1-define-architecture/README.md) to
-model the system and analyze it to give answers to these kind of
-questions.
-
-[In our case](1-architecture#README.md) we have
-
-* TBD
-* 
-
-## <a id="1-DEFINE-REQUIREMENTS">Define requirements</a>
-
-[Requirement analysis](notes/1-define-requirements/README.md)
-determines the need that a system should meet.
-
-In this exercise, we give
-[DevCC functional requirements](1-spec/README.md) as screen mockups
-using
-[Twitter Bootstrap 3.0 Ui Mockup Templatetes](http://keynotopia.com/bootstrap/)
-by [Keynotopia](http://keynotopia.com/).
-
-Initially, we need to have requirements of the target system detailed
-enough so that we can bootstrap
-[our development process](README.md#0-MANAGE-DEVELOPMENT).  In order
-to monitor progress, we must have an understanding of the whole scope
-of the system already at the start.
-
-## <a id="0-SETUP-DEVCC">Setup devcc environment</a>
-
-Like developers normally do (or as they normally
-[SHOULD do](notes/0-why-vcs/README.md)), we are using version control tool
-to manage content created. Our choice is a tool called `git`, and we
-store our content [in a repository](https://github.com/sorsis3/devcc)
-on [github](http://github.com) service.
-
-
-
-* Our fictitious project uses `github`, and and a
-[github -account](https://github.com/join) is needed to demonstrate
-collaboration.
-
-* You need to be familiar with the command line tool on the operating
-system
-([Windows](https://www.google.com/search?q=command+line+tool+windows),
-[Mac](https://www.google.com/search?q=command+line+tool+mac) or
-[Linux](https://www.google.com/search?q=command+line+tool+linux&btnG=Search))
-You are using.
-
-* You need to have an editor, which, 
-  * allows opening several windows (because implementing some feature
-  in a software requires changing)
-  * has a syntax highlight support
-
-## <a id="GUIDES">Guides</a>
-
-* [install git & create github account](guides/git.md)
-* [install nvm, npm, and bower](guides/devtools.md)
-
+* [System, logical, and development architecture](1-architecture#README.md) we have
+* [Screen layout](2-layout#devcc.html)
 
 
 [top](README.md) 
