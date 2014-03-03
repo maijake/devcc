@@ -1,4 +1,24 @@
-# <a id="1-DEFINE ARCHITECTURE">Define Architecture</a>
+# <a id="1-DEFINE ARCHITECTURE">On Defining Architectures</a>
+
+Having `functional`requirements is not enough to start systems
+development. At the start (and trough out the whole system life cycle)
+we need to have understanding of several `non-functional` aspects of
+the system, such as:
+
+* How do we split the (possibly large) overall system into more
+  manageable pieces?
+* How do we integrate the these pieces together?
+* What is the platform on which the system operates?
+* How do we integrate the system with its surroundings?
+* What development tools are used?
+* What is the performance of the system?  How can we increase (scale
+  up) its performance?
+* How secure is the system?
+* etc.
+
+The common engineering practice is to create amodel the system and
+analyze it to give answers to these kind of questions.
+
 
 ## Architecture Description Core Concepts
 

@@ -1,12 +1,19 @@
 2014-03-03  jj  <jj@unski>
 
+	* notes/1-define-architecture/README.md: Added documentation for
+	starting point
+
+	* guides/git.md: enhanched instrction how to install git
+
 	* 2-layout/bower.json: first version, with "bootstrap": "~3.1.1"
 
 	* 2-layout/devcc.html: first version of page layout based on
 	http://getbootstrap.com/examples/starter-template/#
 
 	* README.md: links to [install git & create github account](guides/git.md)
-	[install nvm, npm, and bower](guides/devtools.md)
+	[install nvm, npm, and bower](guides/devtools.md), reorganizes
+	main README.md
+	
 
 	* guides/0-init-git/README.md: ## Merging and Version control
 	workflows, ### Rebase based workflow in git
