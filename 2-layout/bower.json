@@ -1,0 +1,10 @@
+{
+  "name": "devcc",
+  "version": "0.0.0",
+  "description": "Devcc layout",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.1.1"
+  }
+}
