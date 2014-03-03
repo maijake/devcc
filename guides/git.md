@@ -105,40 +105,7 @@ published
 
 	https://github.com/<your github account user name>
 	
-## Update master branch in github
-
-Make sure you are in master
-
-	git checkout master
-
-Check if you already have `author` remote pointing to the original
-repo
-
-	git remote -v
-	
-add if `author` remote is not defined (**needs to be done only once**)
-
-	git remote add author <original repo-forked>
-
-fetch author state
-
-	git fetch author
-	
-make sure that you are on master branch
-
-	git status
-	
-merge `author` to you `master` branch
-
-	git merge author/master
-
-	
-push changes in my `master` branch to github
-
-	git push origin master
-	
 ## Merging and Version control workflows
-
 
 Multiple versions of the same software to be deployed in different
 sites, or a team of software's developers working simultaneously on
@@ -159,11 +126,11 @@ branching are for example
     team is assigned a branch, which will be merged to the mainline,
     when the team has it's branch stable.
 	
-Merging is the opposite action of branching, where multiple changes
-are combined together.  Merging becomes increasingly difficult, when
-more time has elapsed since the change, when number of changes
-increase, changes contain large rewrites, changes are semantically
-incompatible or conflicting, etc.
+In merging, multiple changes are combined together.  It is the
+opposite action of branching. Merging becomes increasingly difficult,
+when more time has elapsed since the change, when the number of
+changes increase, changes contain large rewrites, changes are
+semantically incompatible or conflicting, etc.
 
 
 [Continuous Delivery](http://www.amazon.com/gp/product/0321601912)

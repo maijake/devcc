@@ -78,8 +78,6 @@ store our content [in a repository](https://github.com/sorsis3/devcc)
 on [github](http://github.com) service.
 
 
-* You need to [install git](guides/0-init-git/README.md) to download
-[devcc](https://github.com/sorsis3/devcc) to Your computer. 
 
 * Our fictitious project uses `github`, and and a
 [github -account](https://github.com/join) is needed to demonstrate
@@ -96,6 +94,11 @@ You are using.
   * allows opening several windows (because implementing some feature
   in a software requires changing)
   * has a syntax highlight support
+
+## <a id="GUIDES">Guides</a>
+
+* [install git & create github account](guides/git.md)
+* [install nvm, npm, and bower](guides/devtools.md)
 
 
 

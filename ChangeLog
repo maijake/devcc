@@ -1,5 +1,8 @@
 2014-03-03  jj  <jj@unski>
 
+	* README.md: links to [install git & create github account](guides/git.md)
+	[install nvm, npm, and bower](guides/devtools.md)
+
 	* guides/0-init-git/README.md: ## Merging and Version control
 	workflows, ### Rebase based workflow in git
 
