@@ -1,3 +1,8 @@
+2014-03-04  jj  <jj@unski>
+
+	* guides/git.md: Section "Version Control Workflows" made a little
+	bit more readable
+
 2014-03-03  jj  <jj@unski>
 
 	* notes/1-define-architecture/README.md: Added documentation for

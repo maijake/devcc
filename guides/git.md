@@ -106,7 +106,7 @@ published
 
 	https://github.com/<your github account user name>
 	
-## Merging and Version control workflows
+## Version Control Workflows
 
 Multiple versions of the same software to be deployed in different
 sites, or a team of software's developers working simultaneously on
@@ -115,27 +115,12 @@ updates, result to the need of
 and
 [merging](http://en.wikipedia.org/wiki/Merge_%28revision_control%29).
 
-Branching is the duplication of an version control object. Some reason for
-branching are for example
-
-* **branch by feature**: A branch is created, at the start of feature
-    implementation, and it is merged to the mainline, when the feature
-    implementation is finished.
-
-* **branch by team**: large team of developers working on multiple
-    team. Objective is to have the mainline always releasable. Each
-    team is assigned a branch, which will be merged to the mainline,
-    when the team has it's branch stable.
-	
-In merging, multiple changes are combined together.  It is the
-opposite action of branching. Merging becomes increasingly difficult,
-when more time has elapsed since the change, when the number of
-changes increase, changes contain large rewrites, changes are
-semantically incompatible or conflicting, etc.
-
+Branching is the duplication of an object under revision control.  In
+merging, multiple changes are combined together.  It is the opposite
+action of branching. 
 
 [Continuous Delivery](http://www.amazon.com/gp/product/0321601912)
-promotes development on mainline (i.e. avoid branching) with
+promotes development on mainline trunk (i.e. avoid branching) with
 developers committing small changes to main branch. It identifies
 three good reason to create a separate branch:
 
@@ -149,16 +134,40 @@ three good reason to create a separate branch:
   not support the changes to be implemented incrementally. Once the
   feature is implemented, the changes are merged to the main line
 
+Continuously integrating to main trunk can be successfully applied
+only if supported sufficiently by application and developement
+architectures. This requires, among others, managing external
+dependecies (libraries, runtime environment, development environment,
+external interfaces) and internal dependencies (components, internal
+interfaces) development trough to production.
 
-Rebasing may be used to
-[counter act branch divergence](http://mettadore.com/analysis/a-simple-git-rebase-workflow-explained/)
-In rebased workflow, changes on the mainline are applied periodically
-to the branch. After rebase, the branch is updated as if it were
-created from latest mainline head.
+Some other strategies for branching, (besides continuous integration):
 
-### Rebase based workflow in git
+* **branch by feature**: A branch is created, at the start of feature
+    implementation, and it is merged to the mainline, when the feature
+    implementation is finished.
 
-The main repo is in github ñ
+* **branch by team**: large team of developers working on multiple
+    team. Objective is to have the mainline always releasable. Each
+    team is assigned a branch, which will be merged to the mainline,
+    when the team has it's branch stable.
+
+Merging diverged branches becomes increasingly difficult, when more
+time has elapsed since the change, when the number of changes
+increase, changes contain large rewrites, changes are semantically
+incompatible or conflicting, etc. It may even require using a separate
+[Integration Manager](http://git-scm.com/book/en/Distributed-Git-Distributed-Workflows#Integration-Manager-Workflow)
+role in complex environments.
+
+One way to fight *merge-hell* is to not allow branches to diverge from
+the mainline. In this case branches are periodially
+[rebased](http://mettadore.com/analysis/a-simple-git-rebase-workflow-explained/)
+to the head of the main line trunk.
+
+
+### Rebase Workflow in GIT
+
+The main repo is in github
 `https://github.com/sorsis3/git-test`. Local local repo is created
 with the command
 
@@ -233,7 +242,7 @@ If may deliver the changes made to `sorsis4` -fork by pushing them to
 github, and by making a pull request there for `sorsis3`, to merge the
 changes.
 
-
+pp
 	
 ## Send a pull request on GitHub for only latest commit
 
