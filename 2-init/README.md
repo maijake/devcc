@@ -101,29 +101,29 @@ Html file `index.html`
 
 * defines application name `Demo` and controller name `AppController`
 
-	<html ng-app="Demo" ng-controller="AppController">
+	&lt;html ng-app="Demo" ng-controller="AppController"&gt;
 
 
 * binds to `$scope` -variable `"windowTitle`
 
-    <title ng-bind="windowTitle">Init appl</title>
+    &lt;title ng-bind="windowTitle"&gt;Init appl</title&gt;
 	
 * uses scope variable `subview` to include sub-views in
 
-    <div ng-switch="subview">
-      <div ng-switch-when="splash">
-	<div ng-include=" 'views/layouts/splash.html' "></div>
-      </div>
-      <div ng-switch-when="standard">
-        <div ng-include=" 'views/layouts/standard.html' "></div>
-      </div>
-    </div>
+    &lt;div ng-switch="subview"&gt;
+      &lt;div ng-switch-when="splash"&gt;
+	&lt;div ng-include=" 'views/layouts/splash.html' "&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div ng-switch-when="standard"&gt;
+        &lt;div ng-include=" 'views/layouts/standard.html' "&gt;&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
 
 * uses scope variable `isLoading` to show a spinner
 
-    <div ng-switch="isLoading">
-      <div ng-switch-when="true">Loading...</div>
-    </div>
+    &lt;div ng-switch="isLoading"&gt;
+      &lt;div ng-switch-when="true"&gt;Loading...&lt;/div&gt;
+    &lt;/div&gt;
 
 
 ### main.js
@@ -145,13 +145,13 @@ Controllers
 	      var renderContext = requestContext.getRenderContext( 'app.standard.home.demo', "demoID" );
 
 * listen to `requestContextChanged` message
-		 
-	 $scope.$on(
-		 "requestContextChanged",
-		 function() {
-			 ...
-		 });
 
+
+	      $scope.$on(
+	             "requestContextChanged",
+			      function() {
+			                    ...
+		  });
 
 * and access relevant information form request path
 

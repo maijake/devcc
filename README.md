@@ -18,6 +18,7 @@ The contents aims at creating understanding
 
 * [install git & create github account](guides/git.md)
 * [install nvm, npm, and bower](guides/devtools.md)
+* [application skeleton](2-init/README.md)
 
 ## <a id="RESULTS">Results</a>
 
