@@ -1,0 +1,4 @@
+2014-03-18  jj  <jj@unski>
+
+	* .jshintrc: added assert, should, expect to globals
+

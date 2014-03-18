@@ -1,0 +1,15 @@
+<div ng-controller="demo.DemoController" class="l-standard">
+
+  DemoID: <span class="uneditable-input">{{demoID}}</span>
+
+  <!-- Use span make put spinner on the same row -->
+  <span ng-switch="isLoading">
+    <span ng-switch-when="true">Loading...</span>
+    <span ng-switch-when="false">
+      Data: <span class="uneditable-input">{{data.data}}</span>
+    </span>
+  </span>
+
+
+
+</div>

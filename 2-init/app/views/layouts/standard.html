@@ -1,0 +1,20 @@
+
+<div ng-controller="layouts.StandardController" class="l-standard">
+
+
+  Standard
+
+  <div class="btn-group">
+    <button type="button" ng-click="go( '/home/1' );" class="btn btn-default">1</button>
+    <button type="button" ng-click="go( '/home/2' );" class="btn btn-default">2</button>
+  </div>
+
+  <div ng-switch="subview">
+    <div ng-switch-when="demo">
+      demo includes
+      <div ng-include=" 'views/demo/demo.html' "></div>
+    </div>
+  </div>
+
+
+</div>

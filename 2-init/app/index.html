@@ -1,0 +1,73 @@
+<!doctype html>
+<html ng-app="Demo" ng-controller="AppController">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+    <title ng-bind="windowTitle">Init appl</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/app.css" rel="stylesheet">
+
+
+  </head>
+  <body>
+
+
+    <div ng-switch="isLoading">
+      <div ng-switch-when="true">Loading...</div>
+    </div>
+
+    <div class="btn-group">
+      <button type="button" ng-click="go( '/home' );" class="btn btn-default">Home</button>
+      <button type="button" ng-click="go( '/splash' );" class="btn btn-default">Spash</button>
+    </div>
+
+    <div ng-switch="subview">
+      <div ng-switch-when="splash">
+	<div ng-include=" 'views/layouts/splash.html' "></div>
+      </div>
+      <div ng-switch-when="standard">
+        <div ng-include=" 'views/layouts/standard.html' "></div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+	 ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
+    <script src="vendor/js/jquery.js"></script>
+    <script src="vendor/js/bootstrap.min.js"></script>
+
+    <!-- Utils -->
+    <script src="vendor/js/lodash.js"></script>
+
+    <!-- Angular framework -->
+    <script type="text/javascript" src="vendor/js/angular.js"></script>
+    <script type="text/javascript" src="vendor/js/angular-route.js"></script>
+
+    <!-- Le app! -->
+    <script type="text/javascript" src="main.js"></script>
+
+    <script type="text/javascript" src="js/configs/ModuleConfigs.js"></script>
+    <script type="text/javascript" src="js/beans/render-context.js"></script>
+    <script type="text/javascript" src="js/services/request-context.js"></script>
+    <script type="text/javascript" src="js/services/request-context.js"></script>
+    <script type="text/javascript" src="js/controllers/demo/DemoController.js"></script>
+    <script type="text/javascript" src="js/controllers/layouts/StandardController.js"></script>
+    <script type="text/javascript" src="js/controllers/layouts/SplashController.js"></script>
+    <script type="text/javascript" src="js/controllers/AppController.js"></script>
+
+    <script type="text/javascript" src="js/controllers/DELAY-NOT-EXISTING.js"></script>
+
+  </body>
+</html>

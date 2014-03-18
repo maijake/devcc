@@ -1,3 +1,8 @@
+2014-03-11  jj  <jj@unski>
+
+	* guides/devtools.md: Install stable node version, instructions to
+	install yeoman
+
 2014-03-04  jj  <jj@unski>
 
 	* guides/git.md: Section "Version Control Workflows" made a little
