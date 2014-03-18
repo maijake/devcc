@@ -101,30 +101,29 @@ Html file `index.html`
 
 * defines application name `Demo` and controller name `AppController`
 
-	&lt;html ng-app="Demo" ng-controller="AppController"&gt;
+        	&lt;html ng-app="Demo" ng-controller="AppController"&gt;
 
 
 * binds to `$scope` -variable `"windowTitle`
 
-    &lt;title ng-bind="windowTitle"&gt;Init appl</title&gt;
+            &lt;title ng-bind="windowTitle"&gt;Init appl</title&gt;
 	
 * uses scope variable `subview` to include sub-views in
 
-    &lt;div ng-switch="subview"&gt;
-      &lt;div ng-switch-when="splash"&gt;
-	&lt;div ng-include=" 'views/layouts/splash.html' "&gt;&lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div ng-switch-when="standard"&gt;
-        &lt;div ng-include=" 'views/layouts/standard.html' "&gt;&lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
+            &lt;div ng-switch="subview"&gt;
+              &lt;div ng-switch-when="splash"&gt;
+        	&lt;div ng-include=" 'views/layouts/splash.html' "&gt;&lt;/div&gt;
+              &lt;/div&gt;
+              &lt;div ng-switch-when="standard"&gt;
+                &lt;div ng-include=" 'views/layouts/standard.html' "&gt;&lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
 
 * uses scope variable `isLoading` to show a spinner
 
-    &lt;div ng-switch="isLoading"&gt;
-      &lt;div ng-switch-when="true"&gt;Loading...&lt;/div&gt;
-    &lt;/div&gt;
-
+            &lt;div ng-switch="isLoading"&gt;
+              &lt;div ng-switch-when="true"&gt;Loading...&lt;/div&gt;
+            &lt;/div&gt;
 
 ### main.js
 
