@@ -1,0 +1,26 @@
+ Feature: As a user I want to choose country so that I can see beer stats from that country
+
+   
+   Scenario: Choose an applicable country
+     	Given the country exists
+        And there is a sufficient amount of data from that country
+      	When the user writes the name of the country
+       	And the user presses 'Go!'
+      	Then the user is transferred to the dashboard page
+      	And the user can see requested beer stats
+		
+    Scenario: Choose a country with no data or very small amount of data
+      	Given the country exists
+        And there is not a sufficient amount of data from that country
+       	When the user writes the name of the country
+        And the user presses 'Go!'
+       	Then the user sees an alert telling her/him that there is not enough data from that country
+       	And the user stays in the front page
+		
+    Scenario: Choose a country that 'does not exist'
+      	Given the country does not exist
+       	When the user writes the name of the country
+        And the user presses 'Go!'
+       	Then the user sees an alert telling her/him that the country does not exist
+       	And the user stays in the front page	
+		

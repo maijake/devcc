@@ -1,0 +1,8 @@
+ Feature: As a user I want to be able to return to the home page so that I can choose another country
+
+   
+   Scenario: Return to the home page
+     	Given the link works
+        And ther front page works
+      	When the user clicks the link
+      	Then the user is transferred back to the front page

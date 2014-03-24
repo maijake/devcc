@@ -1,0 +1,11 @@
+ Feature: As a user I want to choose the time frame so that I can compare different time frames
+   
+   Scenario: Choose an applicable time frame
+     	Given there exists enough data for that time frame
+      	When the user clicks one of the time frame buttons
+      	Then the user is sees data for requested time frame
+		
+   Scenario: Choose a non-applicable time frame
+     	Given there does not exist enough data for that time frame
+      	When the user clicks one of the time frame buttons
+      	Then the user sees an alert telling him/her that there is not enough data for that time frame
